@@ -1,46 +1,31 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Sabemos que a saúde mental é fundamental no nosso bem-estar geral, influenciando nossa capacidade de enfrentar desafios e aproveitar a vida de forma plena. No entanto, o impacto da pandemia de COVID-19 trouxe à tona uma preocupação crescente com a saúde mental em todo o mundo. O isolamento social, a incerteza e as mudanças drásticas na rotina contribuíram para um aumento significativo nas doenças mentais, tornando ainda mais crucial o desenvolvimento de ferramentas acessíveis que possam auxiliar na monitoração e promoção da saúde mental. <br>
+No início da pandemia do COVID-19, a taxa global de ocorrência de ansiedade e depressão registrou um acréscimo de aproximadamente 25%, segundo cálculos realizados pela Organização Mundial da Saúde. Já no ano de 2020, a mesma instituição enfatizava a urgência de preservar os serviços de apoio à saúde mental e expandir as oportunidades de atendimento. 
+As estatísticas do Datasus revelam que houve um aumento de 100% no número de óbitos por lesões autoprovocadas nas últimas duas décadas, subindo de 7 mil para 14 mil.
+<br>
+É neste contexto que vemos o potencial de um diário online como uma ferramenta eficaz na promoção da saúde mental. Ao possibilitar uma forma estruturada de autoexpressão e autoconhecimento, o diário oferece uma forma para a compreensão das emoções, pensamentos e padrões comportamentais. Através desta solução, os indivíduos podem documentar suas jornadas, enfrentar desafios e celebrar conquistas, criando um registro pessoal que não só serve como um auxílio terapêutico, mas também como um meio de rastrear o progresso ao longo do tempo.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O aumento das doenças mentais, muitas vezes mascaradas ou subestimadas, destaca a necessidade de ferramentas práticas que auxiliem na compreensão e no gerenciamento das emoções para a promoção do bem-estar emocional. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+<b>Geral:</b> <br>
+Desenvolver uma aplicação WEB e Mobile que permite o usuário, de forma autenticada, realizar o registro de textos e emoções utilizando o método de escrita de um diário. 
+<br><br> <b>Específicos:</b> <br>
+Identificar eficácia da utilização da escrita de um diário para saúde mental.
+<br>Estimular o uso da escrita de um diário como auxílio no tratamento de doenças mentais.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O que impulsionou a realização deste projeto foi a preocupação com as consequências que as doenças mentais podem trazer a uma pessoa quando não tratadas. Também os benefícios que trazem a prática de utilização da escrita de um diário para o bem estar e outra série de propósitos, desde digerir eventos traumáticos, aliviar o estresse e minimizar os sintomas da depressão.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Pessoas com nível básico de conhecimento tecnológico, que estejam ou não em tratamento de saúde mental.  
+Indivíduos que buscam por compreensão de suas emoções, pensamentos e padrões comportamentais.
