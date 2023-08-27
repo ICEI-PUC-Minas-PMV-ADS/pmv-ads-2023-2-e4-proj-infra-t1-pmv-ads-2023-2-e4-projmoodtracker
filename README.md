@@ -1,23 +1,25 @@
 # MOODTRACKER
 
-`CURSO`
+`CURSO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Distribuída - Turma 01 - 2023/2`
 
-`SEMESTRE`
+`EIXO 4`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Aplicação voltada para pessoas com diagnóstico de depresssão que utilizam o registro de textos do dia a dia como tratamento. (Diário Online). 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Andre Felipe Gomes Pinto
+* Eduardo Lucci Imakawa de Andrade
+* Gabriel de Souza Ferreira
+* Leandro Furtado de Sousa
+* Pedro de Souza Ferreira
+* Tiago Del Puppo Favilla Lobo
 
 ## Orientador
 
-* Nome completo do professor 1
+* Felipe Augusto Lara Soares
 
 ## Instruções de utilização
 
