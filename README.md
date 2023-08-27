@@ -6,7 +6,7 @@
 
 `EIXO 4`
 
-Aplicação voltada para pessoas com diagnóstico de depresssão que utilizam o registro de textos do dia a dia como tratamento. (Diário Online). 
+Aplicação voltada para pessoas em tratamento de doenças mentais que utilizam a escrita de um diário como opção terapeutica.
 
 ## Integrantes
 
