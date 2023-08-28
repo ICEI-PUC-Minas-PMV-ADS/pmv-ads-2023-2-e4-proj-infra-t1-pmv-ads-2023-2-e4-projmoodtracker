@@ -68,15 +68,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre uma conta de acesso | ALTA | 
+|RF-002| Permitir que o usuário desative sua conta de acesso   | ALTA |
+|RF-003| Permitir que o usuário realize o registro de um texto | ALTA | 
+|RF-004| Permitir que o usuário realize o registro de um humor | MÉDIA | 
+|RF-005| Permitir que o usuário recupere sua senha de acesso | BAIXA | 
+|RF-006| Permitir que o usuário filtre os textos registrados | MÉDIA | 
+|RF-007| Permitir que o usuário pesquise os textos registrados | ALTA | 
+|RF-008| Permitir que o usuário visualize a quantidade de textos registrados no mês ou filtro | BAIXA | 
+|RF-009| Permitir que o usuário visualize o humor mais registrado em um período | MÉDIA | 
+|RF-010| Permitir que os textos/anotações sejam tageados por palavras-chave | BAIXA | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema Web deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-003| Deve processar requisições do usuário em no máximo 5s |  BAIXA | 
+|RNF-004| A aplicação deve ter interface responsiva |  ALTA | 
+|RNF-005| A aplicação deve ter tela inicial |  ALTA | 
+|RNF-006| A aplicação deve ter tela de recuperar a senha |  BAIXA | 
+|RNF-007| A aplicação deve permitir o acesso apenas de usuários cadastrados	|  ALTA | 
+|RNF-008| A aplicação deve ter bom nível de contraste entre os elementos da tela em conformidade	|  MÉDIA |
+
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
