@@ -156,40 +156,66 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-10/09/2023 - 1ª ETAPA: Concepção, Proposta de Solução e Início da Elaboração do Projeto da Solução 
-           - Documento de Contexto
-           - Especificação do Problema
-           - Documentação dos perfis de usuários, suas necessidades e Personas.
-           - Documentação da Arquitetura Distribuída
-           - Documentação dos requisitos funcionais e não funcionais do projeto de acordo com o contexto levantado
-           
-01/10/2023 - 2ª ETAPA: Desenvolvimento do Back-end:  Web API
-           - Documentação da arquitetura da aplicação distribuída
-           - Projeto da arquitetura baseada em API
-           - Implementação da API e testes de unidade
-           - Documentação com justificativa e avaliação do modelo de dados NoSQL para o contexto da aplicação
-           - Implementação das funcionalidades que envolvem o banco de dados NoSQL para armazenamento e recuperação de dados
-29/10/2023 - 3ª ETAPA: Desenvolvimento do Front-end: Web
-           - Documentação do projeto de interface e do fluxo de telas do sistema de uma aplicação web
-           - Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação web e testes de integração.
-26/11/2023 - 4ª ETAPA: Desenvolvimento do Front-end: Mobile
-           - Documentação do projeto de interface e fluxo de telas do sistema de uma aplicação mobile
-           - Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação mobile testes de sistema
-10/12/2023 - 5ª ETAPA: Diagnóstico, entrega da solução e apresentação
-           - Projeto final
-           - Considerações finais
-           - Entrega do Vídeo da Apresentação Final e PDF usado na Apresentação
-           - Realização da Apresentação Final
+10/09/2023 • 1ª ETAPA: Concepção, Proposta de Solução e Início da Elaboração do Projeto da Solução 
+           • Documento de Contexto
+           • Especificação do Problema
+           • Documentação dos perfis de usuários, suas necessidades e Personas.
+           • Documentação da Arquitetura Distribuída
+           • Documentação dos requisitos funcionais e não funcionais do projeto de acordo com o contexto levantado       
+01/10/2023 • 2ª ETAPA: Desenvolvimento do Back-end:  Web API
+           • Documentação da arquitetura da aplicação distribuída
+           • Projeto da arquitetura baseada em API
+           • Implementação da API e testes de unidade
+           • Documentação com justificativa e avaliação do modelo de dados NoSQL para o contexto da aplicação
+           • Implementação das funcionalidades que envolvem o banco de dados NoSQL para armazenamento e recuperação de dados
+29/10/2023 • 3ª ETAPA: Desenvolvimento do Front-end: Web
+           • Documentação do projeto de interface e do fluxo de telas do sistema de uma aplicação web
+           • Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação web e testes de integração.
+26/11/2023 • 4ª ETAPA: Desenvolvimento do Front-end: Mobile
+           • Documentação do projeto de interface e fluxo de telas do sistema de uma aplicação mobile
+           • Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação mobile testes de sistema
+10/12/2023 • 5ª ETAPA: Diagnóstico, entrega da solução e apresentação
+           • Projeto final
+           • Considerações finais
+           • Entrega do Vídeo da Apresentação Final e PDF usado na Apresentação
+           • Realização da Apresentação Final
 
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+Desenvolvedores 
+•	André Felipe
+•	Eduardo Lucci Imakawa de Andrade
+•	Gabriel Ferreira
+•	Leandro Furtado
+•	Pedro
+•	Tiago Lobo 
 
-![Simple Project Timeline](img/02-project-timeline.png)
+Scrum Master 
+•	André Felipe
+
+Product Owner
+
+•	Tiago Lobo
+
+
+QA Tester
+•	Eduardo Lucci Imakawa de Andrade
+•	Pedro
+
+Design 
+•	Leandro Furtado
+•	Gabriel Ferreira
+•	Tiago Lobo
+
 
 ## Gestão de Orçamento
 
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
+Orçamento
 
-![Orçamento](img/02-orcamento.png)
+Desenvolvedores (Junior)*	R$50.000,00
+Hardware	R$21.000,00
+Rede	R$2.000,00
+Software	R$00,00
+TOTAL	R$73.000,00
+*Valor pago para trabalhar durante 5 meses.
