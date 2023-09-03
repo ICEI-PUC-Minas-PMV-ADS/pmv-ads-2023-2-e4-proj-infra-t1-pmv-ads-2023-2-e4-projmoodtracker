@@ -9,7 +9,8 @@ As estatísticas do Datasus revelam que houve um aumento de 100% no número de �
 
 ## Problema
 
-O aumento das doenças mentais, muitas vezes mascaradas ou subestimadas, destaca a necessidade de ferramentas práticas que auxiliem na compreensão e no gerenciamento das emoções para a promoção do bem-estar emocional. 
+O aumento das doenças mentais, muitas vezes mascaradas ou subestimadas, destaca a necessidade de ferramentas práticas que auxiliem na compreensão e no gerenciamento das emoções para a promoção do bem-estar emocional.
+O grande eforço para pesquisa e filtro dos registros de um diário por meios de aplicações que não são para este objetivo ou uso de meios manuais como cadernos, agendas ou planners dificulta ao usuário ter informações precisas ou conclusões do estado emocional durante um período desejado.
 
 ## Objetivos
 
