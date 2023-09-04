@@ -80,8 +80,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro ZCaixa Project do grupo no GitHub pode ser visualizado no link [ZCaixa Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/516) e é apresentado, no estado atual, na Figura abaixo:
 
-![Kanban](![gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/1985afe9-554a-49ff-8f64-0672c9390669)
-)
+<Img src="![gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/064789d6-714e-4555-8ef2-e83f1af490f5)
+">
 
 
 ### Processo
