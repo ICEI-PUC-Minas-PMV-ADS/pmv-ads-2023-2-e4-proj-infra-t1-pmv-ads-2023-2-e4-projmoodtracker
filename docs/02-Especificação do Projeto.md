@@ -133,35 +133,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ![Matriz de Rastreabilidade](img/matrizrastreabilidade.png)
 
 
-# Gerenciamento de Projeto
+# Gerenciamento de Projeto e do Tempo (cronograma)
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+O gerenciamento do Projeto foi realizado em sua maior parte no Projects do GitHub, utilizando o Scrum como meotologia ágil. O gerenciamento foi detalhado na etapa de metodologia.
 
-## Gerenciamento de Tempo
+O cronograma do projeto foi desenvolvido no software MS Project, seguindo as diretrizes de Gerenciamento de Cronograma do PMBOK. Primeiro foi definida a Estrutura Analíta de Projeto (EAP), onde o projeto foi dividido em 5 tarefas e suas subsequentes subtarefas, em seguida foi definido o sequenciamento das atividades e suas durações, seguindo a técnica PERT/CPM. O software calculou automaticamente as folgas e caminho crítico do projeto. O cronograma completo pode ser verficado na imagem abaixo:
 
-10/09/2023 • 1ª ETAPA: Concepção, Proposta de Solução e Início da Elaboração do Projeto da Solução 
-           • Documento de Contexto
-           • Especificação do Problema
-           • Documentação dos perfis de usuários, suas necessidades e Personas.
-           • Documentação da Arquitetura Distribuída
-           • Documentação dos requisitos funcionais e não funcionais do projeto de acordo com o contexto levantado       
-01/10/2023 • 2ª ETAPA: Desenvolvimento do Back-end:  Web API
-           • Documentação da arquitetura da aplicação distribuída
-           • Projeto da arquitetura baseada em API
-           • Implementação da API e testes de unidade
-           • Documentação com justificativa e avaliação do modelo de dados NoSQL para o contexto da aplicação
-           • Implementação das funcionalidades que envolvem o banco de dados NoSQL para armazenamento e recuperação de dados
-29/10/2023 • 3ª ETAPA: Desenvolvimento do Front-end: Web
-           • Documentação do projeto de interface e do fluxo de telas do sistema de uma aplicação web
-           • Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação web e testes de integração.
-26/11/2023 • 4ª ETAPA: Desenvolvimento do Front-end: Mobile
-           • Documentação do projeto de interface e fluxo de telas do sistema de uma aplicação mobile
-           • Implementação do projeto de interface, fluxo de telas do sistema de uma aplicação mobile testes de sistema
-10/12/2023 • 5ª ETAPA: Diagnóstico, entrega da solução e apresentação
-           • Projeto final
-           • Considerações finais
-           • Entrega do Vídeo da Apresentação Final e PDF usado na Apresentação
-           • Realização da Apresentação Final
+![cronograma moodtracker](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/c0d2e2ce-def1-4e64-8059-8aef8e55337c)
 
 
 ## Gerenciamento de Equipe
