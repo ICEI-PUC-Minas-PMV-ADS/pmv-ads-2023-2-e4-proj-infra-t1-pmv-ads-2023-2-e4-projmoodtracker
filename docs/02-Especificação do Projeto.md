@@ -53,12 +53,31 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
+Indicadores de desempenho são medidas calculadas e compostas por métricas, geralmente ao final de cada processo do projeto. Entre os papéis de um indicador estão: transmitir as necessidades e expectativas dos clientes; viabilizar o desdobramento das metas do negócio; dar suporte à análise crítica dos resultados do negócio, às tomadas de decisão e ao novo planejamento; contribuir para a melhoria dos proceso e produtos.
 
-Usar o seguinte modelo: 
+Para construir um indicador é necessário:
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+- Nomear o indicador;
+- Definir seu objetivo;
+- Definir unidade de medida;
+- Estabelecer periodicidade de cálculo;
+- Indicar responsável pela geração e divulgação;
+- Definir fórmula de cálculo;
+- Indicar seu intervalo de validade;
+- Apontar onde e como as variáveis serão capturadas (fonte de dados);
+- Definir usuários.
+
+Para este projeto foram definidos 5 indicadores de desempenho, listados abaixo conforme métricas descritas anteriormente:
+
+|  | INDICADOR   |  OBJETIVO   |  UNIDADE | PERIODICIDADE | RESPONSÁVEL |  FÓRMULA | INTERVALO DE VALIDADE | VARIÁVEIS |
+|--|-------------|-------------|----------|---------------|-------------|----------|-----------------------|-----------|
+|01| Número de Downloads do Aplicativo na App Store | Meta primária de 1.000 downloads/mês | downloads/mês | avaliação mensal | Project Manager | downloads/mês | ideal = >1000 | downloads e tempo|
+|02| Avaliações na App Store | Manter médias das avaliações acima de 4 | % de avaliações positivas | mensal | Project Manager | 90% das avaliações acima de 4,5 | ideal = superior a 4,5 | avaliações positivas por mês |
+|03| Quantidade de usuários cadastrados | ter pelo menos 500 cadastros/mês | cadastros/mês | mensal | Marketing/Desenvolvimento | cadastros/mês | ideal = acima de 600 cadastros/mês | cadastros e tempo |
+|04| Tempo de uso do sistema por usuário | aumentar o tempo de uso por usuário a pelo meno 20min/sem | min/semana | semanal | Marketing/Desenvolvimento | tempo de uso por semana | ideal = acima de 20min por semana | tempo de uso semanal |
+|05| Usuários ativos | garantir que usuários estejam ativos pelo menos 3 dias na semana | dias ativos por semana| semana | Equipe de Desenvolvimento | dias ativos por semana | ideal = acima de 3 dias | dias ativos |
+
+ 
 
 ## Requisitos
 
