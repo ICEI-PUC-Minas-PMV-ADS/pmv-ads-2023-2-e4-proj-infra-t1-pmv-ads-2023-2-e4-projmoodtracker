@@ -78,10 +78,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ●	DONE: Esta lista representa os cartões que já foram executados, avaliados e dados como feito.
 
 
-O quadro ZCaixa Project do grupo no GitHub pode ser visualizado no link [ZCaixa Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/516) e é apresentado, no estado atual, na Figura abaixo:
+O quadro Mood Tracker Project do grupo no GitHub pode ser visualizado no link [Mood Tracker Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/516) e é apresentado, no estado atual, na Figura abaixo:
 
-<Img src="![gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/064789d6-714e-4555-8ef2-e83f1af490f5)
-">
+![gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/ab033549-82c5-46ea-b0d4-a9e7c8183d1a)
 
 
 ### Processo
