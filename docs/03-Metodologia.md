@@ -10,7 +10,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 Repositório de código fonte | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker
 
-Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t2-zcaixa/tree/main/docs
+Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/docs
 
 Projeto de Interface e Wireframes | MarvelApp | [Marvel APP - Moodtracker Web e Mobile](https://marvelapp.com/prototype/)
 
