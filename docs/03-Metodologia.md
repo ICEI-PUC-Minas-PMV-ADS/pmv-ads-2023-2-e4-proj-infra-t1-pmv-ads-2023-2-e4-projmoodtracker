@@ -47,9 +47,9 @@ A equipe está organizada da seguinte forma:
 
 **Project Manager / Scrum Master**: Pedro Ferreira, Tiago Lobo
 
-**Product Owner**: Professor (Mateus Curcino)
+**Product Owner**: Professor (Felipe Lara)
 
-**Desenvolvedor líder**: Ricardo Teixeira
+**Desenvolvedor líder**: Gabriel Ferreira
 
 **UI/UX Designers**:
 
@@ -95,7 +95,7 @@ Ao realizar reuniões para continuidade do projeto, são definidos os cards de t
 As ferramentas empregadas no projeto são:
 
 - Editor de código : Visual Studio Code;
-- Emulador da aplicação: Android Studio e Expo, NPM;
+- Emulador da aplicação: Android Studio e Expo, NPM, Visual Studio;
 - Ferramentas de comunicação: Whatsapp, Teams;
 - Gerencimaneto do projeto: GitHub Projects e MS Project;
 - Ferramentas de desenho de tela (_wireframing_): MarvelAPP e Figma;
