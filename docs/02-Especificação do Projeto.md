@@ -33,25 +33,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+De acordo com os usuário entrevistados, atualmente a maioria que afirma utilizar um diário como uma ferramenta de auxílio para terapia usam caderno e registram seus textos e emoções de forma manual, que pode ser representado pelo processo no padrão BPMN conforme abaixo:
 
-### Descrição Geral da Proposta
+![Caderno](img/BPMN-caderno.png)
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+PROCESSO UTILIZANDO O A SOLUÇÃO
 
-### Processo 1 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
-
-## Indicadores de Desempenho
+![moodtracker](img/BPMN-aplicação.png)
 
 Indicadores de desempenho são medidas calculadas e compostas por métricas, geralmente ao final de cada processo do projeto. Entre os papéis de um indicador estão: transmitir as necessidades e expectativas dos clientes; viabilizar o desdobramento das metas do negócio; dar suporte à análise crítica dos resultados do negócio, às tomadas de decisão e ao novo planejamento; contribuir para a melhoria dos proceso e produtos.
 
