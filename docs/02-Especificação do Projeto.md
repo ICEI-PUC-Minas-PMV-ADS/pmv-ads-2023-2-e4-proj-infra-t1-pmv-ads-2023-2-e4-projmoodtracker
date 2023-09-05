@@ -39,7 +39,7 @@ De acordo com os usuário entrevistados, atualmente a maioria que afirma utiliza
 
 PROCESSO UTILIZANDO O A SOLUÇÃO
 
-![moodtracker](img/BPMN-aplicação.png)
+![moodtracker](img/BPMN-aplicacao.png)
 
 Indicadores de desempenho são medidas calculadas e compostas por métricas, geralmente ao final de cada processo do projeto. Entre os papéis de um indicador estão: transmitir as necessidades e expectativas dos clientes; viabilizar o desdobramento das metas do negócio; dar suporte à análise crítica dos resultados do negócio, às tomadas de decisão e ao novo planejamento; contribuir para a melhoria dos proceso e produtos.
 
