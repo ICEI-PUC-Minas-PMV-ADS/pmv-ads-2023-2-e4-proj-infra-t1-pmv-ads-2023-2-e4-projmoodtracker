@@ -13,17 +13,17 @@ A definição do problema e os pontos mais relevantes a serem tratados neste pro
 
 |Flavia Lima     | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-| ![persona2](img/) | **Idade:** 23 anos <br> **Ocupação:** Estagiária |**Aplicativos:**<br>● Tiktok <br>● Instagram<br>● Whatsapp  |
+| ![persona2](img/Flavia.jpg) | **Idade:** 23 anos <br> **Ocupação:** Estagiária |**Aplicativos:**<br>● Tiktok <br>● Instagram<br>● Whatsapp  |
 |**Motivações:**<br>● Ter um diário para expressar ideias<br>●  Escrever planos pro dia a dia|**Frustrações:**<br>● Dificuldade em se lembrar de compromissos e ideias pensadas <br>● Ficar ansiosa pensando nas atividades do dia a dia |**Hobbies:**<br>● Séries <br>● Maquiagem <br>● Animais de estimação |
 
 |Gabriel Henrique      | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-| ![persona3](https://user-images.githubusercontent.com/74699119/221930875-86967040-8a36-48fc-8caa-c39374aa456d.jpg) | **Idade:** 28 anos <br> **Ocupação:** Tintureiro |**Aplicativos:**<br>● Whatsapp <br>● FaceTime <br>● Instagram  |
+| ![persona3](img/Gabriel.jpg) | **Idade:** 28 anos <br> **Ocupação:** Tintureiro |**Aplicativos:**<br>● Whatsapp <br>● FaceTime <br>● Instagram  |
 |**Motivações:**<br>● Ser mais paciente <br>● Escrever para expressar o estresse  |**Frustrações:**<br>● Ficar agressivo e ansioso quando esta estressado. |**Hobbies:**<br>● Leitura<br>● Praticar exercício físico <br>● Natureza |
 
 |Sabrina Souza      | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-| ![persona4](https://user-images.githubusercontent.com/74699119/221960106-8047565a-ed5f-4990-94c7-40afc2fdf403.jpg) | **Idade:** 22 anos <br> **Ocupação:** Operadora de Telemarketing |**Aplicativos:**<br>● Instagram <br>● Twitter<br>● LinkedIn  |
+| ![persona4](img/Sabrina.jpeg) | **Idade:** 22 anos <br> **Ocupação:** Operadora de Telemarketing |**Aplicativos:**<br>● Instagram <br>● Twitter<br>● LinkedIn  |
 |**Motivações:**<br>● Descrever seus dias de trabalho <br>● Registrar seu humor do dia |**Frustrações:**<br>● Sente muita pressão no trabalho <br>● Percebe muitas variações de humor no trabalho |**Hobbies:**<br>● Cozinhar<br>● Corrida <br>● Séries | 
 
 ## Histórias de Usuários
