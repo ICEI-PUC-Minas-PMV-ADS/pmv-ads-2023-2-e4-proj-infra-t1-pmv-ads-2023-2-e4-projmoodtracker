@@ -6,13 +6,25 @@ A definição do problema e os pontos mais relevantes a serem tratados neste pro
 
 ## Personas
 
-Flavia Lima tem 23 anos e realiza consultas com psicóloga há mais de 3 meses no tratamento de ansiedade e sempre ouvia a sugestão da psicologa de fazer registros escritos do seu dia a dia como forma de expressão e terapia. Hoje ela busca por uma ferramenta onde possa fazer esses registros diários. 
+|Mateus Cunha     | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona1](img/Mateus.jpg) | **Idade:** 26 anos <br> **Ocupação:** Contador |**Aplicativos:**<br>● Whatsapp <br>● Instagram<br>|
+|**Motivações:**<br>● Registrar gatilhos e hábitos diários |**Frustrações:**<br>● Sempre agir em decorrência de algum gatilho pra realizar alguma vontade, como por exemplo, fumar. |**Hobbies:**<br>● Vídeo games<br>● Música <br>● Televisão |
 
-Gabriel Henrique tem 28 anos e faz tratamento anti depressivo, pretende utilizar um diário sempre que se sentir estressado para escrever seus pensamentos como forma de aliviar o stress. 
+|Flavia Lima     | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona2](img/) | **Idade:** 23 anos <br> **Ocupação:** Estagiária |**Aplicativos:**<br>● Tiktok <br>● Instagram<br>● Whatsapp  |
+|**Motivações:**<br>● Ter um diário para expressar ideias<br>●  Escrever planos pro dia a dia|**Frustrações:**<br>● Dificuldade em se lembrar de compromissos e ideias pensadas <br>● Ficar ansiosa pensando nas atividades do dia a dia |**Hobbies:**<br>● Séries <br>● Maquiagem <br>● Animais de estimação |
 
-Mateus Cunha tem 26 anos e fuma cigarro há 5 anos, hoje esta em processo para parar. Pretende utilizar uma ferramenta de anotações para registrar seus hábitos diários a fim de compreender melhor quais são seus gatilhos que despertam a vontade do consumo de cigarro. 
+|Gabriel Henrique      | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona3](https://user-images.githubusercontent.com/74699119/221930875-86967040-8a36-48fc-8caa-c39374aa456d.jpg) | **Idade:** 28 anos <br> **Ocupação:** Tintureiro |**Aplicativos:**<br>● Whatsapp <br>● FaceTime <br>● Instagram  |
+|**Motivações:**<br>● Ser mais paciente <br>● Escrever para expressar o estresse  |**Frustrações:**<br>● Ficar agressivo e ansioso quando esta estressado. |**Hobbies:**<br>● Leitura<br>● Praticar exercício físico <br>● Natureza |
 
-Sabrina Souza tem 22 anos e trabalha de operadora de telemarketing em um callcenter, hoje ela relata que sente muita pressão no trabalho e percebeu um comportamento muito ansioso ultimamente. 
+|Sabrina Souza      | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+| ![persona4](https://user-images.githubusercontent.com/74699119/221960106-8047565a-ed5f-4990-94c7-40afc2fdf403.jpg) | **Idade:** 22 anos <br> **Ocupação:** Operadora de Telemarketing |**Aplicativos:**<br>● Instagram <br>● Twitter<br>● LinkedIn  |
+|**Motivações:**<br>● Descrever seus dias de trabalho <br>● Registrar seu humor do dia |**Frustrações:**<br>● Sente muita pressão no trabalho <br>● Percebe muitas variações de humor no trabalho |**Hobbies:**<br>● Cozinhar<br>● Corrida <br>● Séries | 
 
 ## Histórias de Usuários
 
