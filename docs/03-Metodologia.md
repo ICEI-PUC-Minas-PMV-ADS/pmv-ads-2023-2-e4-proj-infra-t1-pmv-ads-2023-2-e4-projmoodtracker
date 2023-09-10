@@ -75,14 +75,14 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 ●	IN PROGRESS: Recebe os cartões de tarefas que estão sendo desenvolvidas no presente, vindas do Sprint Backlog.
 
-●	IN REVIEW: Esta demonstra cartões que foram executados, mas que devem ser avaliados e discutido pela equipe para determinar a atualização da tarefa para DONNE. Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
+●	IN REVIEW: Esta demonstra cartões que foram executados, mas que devem ser avaliados e discutido pela equipe para determinar a atualização da tarefa para DONE. Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
 
 ●	DONE: Esta lista representa os cartões que já foram executados, avaliados e dados como feito.
 
 
 O quadro Mood Tracker Project do grupo no GitHub pode ser visualizado no link [Mood Tracker Project](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/516) e é apresentado, no estado atual, na Figura abaixo:
 
-![gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/ab033549-82c5-46ea-b0d4-a9e7c8183d1a)
+![[gerenciamento do projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/9f83821b-417a-4940-b7d5-151aabc286d9)
 
 
 ### Processo
