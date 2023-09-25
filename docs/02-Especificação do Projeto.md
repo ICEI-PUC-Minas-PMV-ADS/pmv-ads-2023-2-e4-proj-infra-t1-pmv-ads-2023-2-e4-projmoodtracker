@@ -32,13 +32,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Flavia Lima  | Fazer anotações do meu cotidiano   | Utilizar como terapia    |
+|Flavia Lima  | Fazer anotações do meu cotidiano   | Utilizar como auxílio terapêutico   |
 |Flavia Lima  | Somente eu tenha acesso às minhas anotações | Por motivos de segurança e privacidade | 
 |Gabriel Henrique | Criar o hábito de fazer anotações   | Para me auxiliar no dia a dia |
 |Gabriel Henrique | Marcar textos com palavras-chaves | Para buscar ou filtrar textos específicos | 
 |Mateus Cunha | Anotar meus hábitos gerais | Quero identificar possíveis gatilhos da vontade de fumar|
 |Mateus Cunha | Quero ter a possibilidade de excluir meu usuário | Para excluir meus dados já registrados |
-|Sabrina Souza | Anotar sobre meus dias no trabalho e registrar meu humor | Quero observar meus registros de humor futuramente|
+|Sabrina Souza | Anotar sobre meus dias no trabalcho e registrar meu humor | Quero observar meus registros de humor futuramente|
 |Sabrina Souza | Buscar um texto já anotado anteriormente | Para facilitar o acesso aos meus textos | 
 
 ## Modelagem do Processo de Negócio 
