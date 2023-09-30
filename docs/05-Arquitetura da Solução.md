@@ -117,15 +117,28 @@ A aplicação estará assim que pronto, disponível para download na loja Google
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+Qualidade de Software
+Sabemos que a qualidade de software é a medida em que um software atende aos requisitos do usuário e aos padrões de qualidade estabelecidos. Isso inclui a capacidade do software de funcionar corretamente, de ser fácil de usar e de ser seguro e confiável. A qualidade de software também pode ser medida pela eficiência e eficácia do software, como o seu desempenho por exemplo.
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+Sendo assim o aplicativo do MoodTracker é um exemplo de software de qualidade. Ele é desenvolvido para ajudar os usuários a relatar suas experiências, tanto positivas quanto negativas para ter uma valula de escape, relatar seus problemas. refletir e acompanhar seu humor. O aplicativo possui uma interface intuitiva e fácil de usar, o que o torna acessível para usuários de todos os níveis de habilidade.
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+Além disso, é uma aplicação de alta segurança e perfomance, voltada para o uso pessoal. Ele terá uma escala de humor e opção de exportar as informações sempre que quiser.
 
-> **Links Úteis**:
->
-> - [ISO/IEC 25010:2011 - Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models](https://www.iso.org/standard/35733.html/)
-> - [Análise sobre a ISO 9126 – NBR 13596](https://www.tiespecialistas.com.br/analise-sobre-iso-9126-nbr-13596/)
-> - [Qualidade de Software - Engenharia de Software 29](https://www.devmedia.com.br/qualidade-de-software-engenharia-de-software-29/18209/)
+Em resumo, o MoodTracker é um exemplo de software de qualidade que oferece aos usuários um conjunto abrangente de recursos para os usuários conseguirem relatar seus dilemas diários e auxiliar-los para acompanhar e relatar todas as informações que desejarem incluir. Com sua interface intuitiva e recursos de segurança avançados, o aplicativo é a escolha perfeita para quem deseja criar um acompanhamento diário, tanto do humor quanto de nossos dilemas diários com eficiência e confiabilidade.
+
+Funcionalidade:
+Ajuda os usuários a criar relatos diários.
+Incluir o nivel de humor diário
+Oferece recursos de para exportar e filtros.
+Confiabilidade:
+É seguro e confiável.
+Possui autenticação(Login/Cadastro) de usuários.
+Garante a proteção das informações pessoais dos usuários.
+Portabilidade:
+Disponível como aplicativo móvel.
+Pode ser usado em diferentes dispositivos móveis (tablets/smartphones).
+Tem suporte a diferentes sistemas operacionais móveis.
+Manutenção:
+Possui atualizações regulares para melhorias e correções;
+Oferece suporte técnico aos usuários;
+Mantém um registro de erros e bugs para solucioná-los de forma eficaz.
