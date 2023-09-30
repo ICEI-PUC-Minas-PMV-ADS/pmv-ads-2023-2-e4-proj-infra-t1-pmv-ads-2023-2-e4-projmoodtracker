@@ -64,13 +64,13 @@ Esquema: Definiu-se os esquemas de coleção de acordo com as necessidades do ap
 
 ### As ferramentas empregadas no projeto foram:
 
-Editor de código : Visual Studio Code;
-Emulador da aplicação: Android Expo, NPM;
-Ferramentas de comunicação: Whatsapp, Teams;
-Gerencimaneto do projeto: GitHub Projects e MS Project;
-Ferramentas de desenho de tela (wireframing): MarvelAPP, Heflo e Figma;
-Ferramentas para diagramas (conceitual e lógico): Diagrams.net, Astah, Lucid Charts, BRMW e Figma;
-Versionamento de código: GitHub e GitHub desktop.
+- Editor de código : Visual Studio Code;
+- Emulador da aplicação: Android Expo, NPM;
+- Ferramentas de comunicação: Whatsapp, Teams;
+- Gerencimaneto do projeto: GitHub Projects e MS Project;
+- Ferramentas de desenho de tela (wireframing): MarvelAPP, Heflo e Figma;
+- Ferramentas para diagramas (conceitual e lógico): Diagrams.net, Astah, Lucid Charts, BRMW e Figma;
+- Versionamento de código: GitHub e GitHub desktop.
 
 O editor de código foi escolhido pelo grupo pois é o mais prático e acessível para os integrantes, além de facilitar a alternação de quem está editando o código e salvando diretamente no reposítorio através do GitHub Desktop. Tem um bom dicionário de erros no código e permite acompanhar alterações em tempo real através do emulador do android studio.
 
