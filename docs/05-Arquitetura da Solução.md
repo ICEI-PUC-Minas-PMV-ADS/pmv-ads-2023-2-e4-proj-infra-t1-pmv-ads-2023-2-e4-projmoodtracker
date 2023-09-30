@@ -34,7 +34,7 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 A arquitetura da solução foi simplificada em três categorias: cliente, API e Banco de Dados (conforme figura abaixo).
 
-<img width="2296" alt="arquitetura da aplicação" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/775f0a7a-86d9-483f-9a19-cf9e463efe3b">
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/7b520abf-2b9f-46ea-a9ca-8eeb6fef6e30)
 
 ### Camada de Cliente:
 
@@ -62,7 +62,7 @@ MongoDB: Utilizou-se o MongoDB como banco de dados NoSQL para armazenar dados de
 
 Esquema: Definiu-se os esquemas de coleção de acordo com as necessidades do aplicativo, estando preparados para lidar com mudanças nos esquemas ao longo do tempo.
 
-As ferramentas empregadas no projeto foram:
+### As ferramentas empregadas no projeto foram:
 
 Editor de código : Visual Studio Code;
 Emulador da aplicação: Android Expo, NPM;
