@@ -26,7 +26,39 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 > - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
 
-## Modelo Físico
+## Banco de Dados
+
+A escolha do MongoDB como banco de dados NoSQL para uma aplicação de registro de textos e humor, seguindo o método de escrita de um diário, é justificada pelas seguintes razões:
+
+### Flexibilidade na Modelagem de Dados:
+O MongoDB permite uma modelagem flexível de dados, adequada para a natureza livre e variável das entradas de diário.
+
+### Suporte a Dados Textuais:
+É eficaz para armazenar e consultar dados textuais, essenciais para registros de diário.
+
+### Escalabilidade:
+O MongoDB é escalável horizontalmente, acomodando o crescimento de dados ao longo do tempo.
+
+### Modelo de Dados Proposto:
+O modelo de dados NoSQL proposto para a aplicação de registro de textos e emoções consiste em duas principais coleções: "Diários" e "Emoções".
+
+Coleção "Diários"
+A coleção "Diários" é responsável por armazenar as entradas individuais do diário. Cada documento nessa coleção terá os seguintes campos:
+
+_id: Um identificador exclusivo para cada entrada do diário.
+data: A data e hora da entrada.
+texto: O texto da entrada do diário.
+id_usuario: O identificador do usuário que fez a entrada.
+emoção_id: Um campo de referência à coleção "Emoções", indicando a emoção associada à entrada (pode ser nulo).
+Coleção "Emoções"
+A coleção "Emoções" armazena informações sobre as emoções registradas pelos usuários em suas entradas do diário. Cada documento nessa coleção terá os seguintes campos:
+
+_id: Um identificador exclusivo para cada registro de emoção.
+nome: O nome da emoção (por exemplo, "Feliz", "Triste", "Empolgado").
+descrição: Uma descrição mais detalhada da emoção.
+cor: Uma cor associada à emoção para fins de visualização.
+id_usuario: O identificador do usuário que associou a emoção (pode ser nulo).
+
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
