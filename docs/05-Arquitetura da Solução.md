@@ -45,20 +45,20 @@ O modelo de dados NoSQL proposto para a aplicação de registro de textos e emo�
 ### Coleção "Diários":
 A coleção "Diários" é responsável por armazenar as entradas individuais do diário. Cada documento nessa coleção terá os seguintes campos:
 
-_id: Um identificador exclusivo para cada entrada do diário.
-data: A data e hora da entrada.
-texto: O texto da entrada do diário.
-id_usuario: O identificador do usuário que fez a entrada.
-emoção_id: Um campo de referência à coleção "Emoções", indicando a emoção associada à entrada (pode ser nulo).
+- _id: Um identificador exclusivo para cada entrada do diário.
+- data: A data e hora da entrada.
+- texto: O texto da entrada do diário.
+- id_usuario: O identificador do usuário que fez a entrada.
+- emoção_id: Um campo de referência à coleção "Emoções", indicando a emoção associada à entrada (pode ser nulo).
 
 ### Coleção "Emoções"
 A coleção "Emoções" armazena informações sobre as emoções registradas pelos usuários em suas entradas do diário. Cada documento nessa coleção terá os seguintes campos:
 
-_id: Um identificador exclusivo para cada registro de emoção.
-nome: O nome da emoção (por exemplo, "Feliz", "Triste", "Empolgado").
-descrição: Uma descrição mais detalhada da emoção.
-cor: Uma cor associada à emoção para fins de visualização.
-id_usuario: O identificador do usuário que associou a emoção (pode ser nulo).
+- _id: Um identificador exclusivo para cada registro de emoção.
+- nome: O nome da emoção (por exemplo, "Feliz", "Triste", "Empolgado").
+- descrição: Uma descrição mais detalhada da emoção.
+- cor: Uma cor associada à emoção para fins de visualização.
+- id_usuario: O identificador do usuário que associou a emoção (pode ser nulo).
 
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
