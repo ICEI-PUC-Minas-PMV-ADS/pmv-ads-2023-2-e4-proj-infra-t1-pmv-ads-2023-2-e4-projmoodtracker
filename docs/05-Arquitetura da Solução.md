@@ -2,9 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
-![Arquitetura da Solução](img/02-mob-arch.png)
+Nesta etapa foram definidas a estruturação do software  em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
 ## Diagrama de Classes
 
@@ -34,9 +32,47 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+A arquitetura da solução foi simplificada em três categorias: cliente, API e Banco de Dados (conforme figura abaixo).
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+<img width="2296" alt="arquitetura da aplicação" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/775f0a7a-86d9-483f-9a19-cf9e463efe3b">
+
+### Camada de Cliente:
+
+React para Web: Desenvolveu-se a versão da web do aplicativo React usando componentes React e bibliotecas como o React Router para gerenciar a navegação.
+
+React Native para Dispositivos Móveis: Usou-se o React Native para criar versões nativas do aplicativo para iOS e Android. Compartilhou-se a maior quantidade possível de código entre as versões da web e móvel, aproveitando bibliotecas e estruturas de componentes compatíveis.
+
+Gestão de Estado: Utilizou-se bibliotecas de gerenciamento de estado como Redux ou MobX para compartilhar e gerenciar o estado do aplicativo entre as diferentes plataformas.
+
+Autenticação e Autorização: Implementou-se um sistema de autenticação seguro, como JWT (JSON Web Tokens), para proteger as rotas e recursos do aplicativo.
+
+### Camada de API:
+
+ASP.NET: Desenvolveu-se a camada de API REST usando ASP.NET. Foi possível escolher entre ASP.NET Core ou ASP.NET Framework, dependendo das necessidades e preferências.
+
+Roteamento: Configurou-se rotas RESTful que correspondiam a endpoints de recursos, como /api/users para gerenciar usuários ou /api/products para produtos.
+
+Lógica de Negócios: Implementou-se a lógica de negócios no backend para processar solicitações do cliente, validar dados e interagir com o banco de dados.
+
+Middleware de Autenticação: Utilizou-se middleware de autenticação para verificar tokens JWT e autenticar solicitações de clientes.
+
+### Camada de Banco de Dados:
+
+MongoDB: Utilizou-se o MongoDB como banco de dados NoSQL para armazenar dados de forma flexível e escalável.
+
+Esquema: Definiu-se os esquemas de coleção de acordo com as necessidades do aplicativo, estando preparados para lidar com mudanças nos esquemas ao longo do tempo.
+
+As ferramentas empregadas no projeto foram:
+
+Editor de código : Visual Studio Code;
+Emulador da aplicação: Android Expo, NPM;
+Ferramentas de comunicação: Whatsapp, Teams;
+Gerencimaneto do projeto: GitHub Projects e MS Project;
+Ferramentas de desenho de tela (wireframing): MarvelAPP, Heflo e Figma;
+Ferramentas para diagramas (conceitual e lógico): Diagrams.net, Astah, Lucid Charts, BRMW e Figma;
+Versionamento de código: GitHub e GitHub desktop.
+
+O editor de código foi escolhido pelo grupo pois é o mais prático e acessível para os integrantes, além de facilitar a alternação de quem está editando o código e salvando diretamente no reposítorio através do GitHub Desktop. Tem um bom dicionário de erros no código e permite acompanhar alterações em tempo real através do emulador do android studio.
 
 ## Hospedagem
 
