@@ -42,7 +42,7 @@ O MongoDB é escalável horizontalmente, acomodando o crescimento de dados ao lo
 ### Modelo de Dados Proposto:
 O modelo de dados NoSQL proposto para a aplicação de registro de textos e emoções consiste em duas principais coleções: "Diários" e "Emoções".
 
-Coleção "Diários"
+###Coleção "Diários":
 A coleção "Diários" é responsável por armazenar as entradas individuais do diário. Cada documento nessa coleção terá os seguintes campos:
 
 _id: Um identificador exclusivo para cada entrada do diário.
@@ -50,7 +50,8 @@ data: A data e hora da entrada.
 texto: O texto da entrada do diário.
 id_usuario: O identificador do usuário que fez a entrada.
 emoção_id: Um campo de referência à coleção "Emoções", indicando a emoção associada à entrada (pode ser nulo).
-Coleção "Emoções"
+
+###Coleção "Emoções"
 A coleção "Emoções" armazena informações sobre as emoções registradas pelos usuários em suas entradas do diário. Cada documento nessa coleção terá os seguintes campos:
 
 _id: Um identificador exclusivo para cada registro de emoção.
