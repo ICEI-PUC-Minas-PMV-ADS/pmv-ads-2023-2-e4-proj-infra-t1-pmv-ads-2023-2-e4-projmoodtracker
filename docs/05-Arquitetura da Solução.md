@@ -76,7 +76,7 @@ A arquitetura da solução foi simplificada em três categorias: cliente, API e 
 
 React para Web: Desenvolveu-se a versão da web do aplicativo React usando componentes React e bibliotecas como o React Router para gerenciar a navegação.
 
-React Native para Dispositivos Móveis: Usou-se o React Native para criar versões nativas do aplicativo para iOS e Android. Compartilhou-se a maior quantidade possível de código entre as versões da web e móvel, aproveitando bibliotecas e estruturas de componentes compatíveis.
+React Native para Dispositivos Móveis: Usou-se o React Native para criar versões nativas do aplicativo Android. Compartilhou-se a maior quantidade possível de código entre as versões da web e móvel, aproveitando bibliotecas e estruturas de componentes compatíveis.
 
 Gestão de Estado: Utilizou-se bibliotecas de gerenciamento de estado como Redux ou MobX para compartilhar e gerenciar o estado do aplicativo entre as diferentes plataformas.
 
