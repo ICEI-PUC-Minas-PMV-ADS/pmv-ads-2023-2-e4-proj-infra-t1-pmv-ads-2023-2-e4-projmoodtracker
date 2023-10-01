@@ -22,41 +22,49 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 ![Esquema Relacional](img/esquemaRelacional.png)
 
 ## Banco de Dados
-
-A escolha do MongoDB como banco de dados NoSQL para uma aplicação de registro de textos e humor, seguindo o método de escrita de um diário, é justificada pelas seguintes razões:
-
-### Flexibilidade na Modelagem de Dados:
-O MongoDB permite uma modelagem flexível de dados, adequada para a natureza livre e variável das entradas de diário.
-
-### Suporte a Dados Textuais:
-É eficaz para armazenar e consultar dados textuais, essenciais para registros de diário.
-
-### Escalabilidade:
-O MongoDB é escalável horizontalmente, acomodando o crescimento de dados ao longo do tempo.
+A aplicação irá utilizar dois bancos de dados, um relacional provido pelo SQLExpress e um não relacional no MongoDB.
 
 ### Modelo de Dados Proposto:
-O modelo de dados NoSQL proposto para a aplicação de registro de textos e emoções consiste em duas principais coleções: "Diários" e "Emoções".
+O modelo de dados NoSQL irá tratar a tabela de usuários da aplicação bem como as questões de autenticação e segurança. Já o modelo relacional SQL irá conter a estrutura necessárias das tabelas Registros, Humor e NotaMensal da aplicação.
 
-### Coleção "Diários":
-A coleção "Diários" é responsável por armazenar as entradas individuais do diário. Cada documento nessa coleção terá os seguintes campos:
+### Coleção "Registros":
+A coleção "Registros" é responsável por armazenar uma entrada individual do usuário por dia. Cada documento nessa coleção terá os seguintes campos:
 
-- _id: Um identificador exclusivo para cada entrada do diário.
+- id: Um identificador exclusivo para cada entrada do diário.
 - data: A data e hora da entrada.
+- titulo: Titulo da entrada.
 - texto: O texto da entrada do diário.
-- id_usuario: O identificador do usuário que fez a entrada.
-- emoção_id: Um campo de referência à coleção "Emoções", indicando a emoção associada à entrada (pode ser nulo).
+- humor: chave etrangeira da tabela Humor.
+- username: chave estrangeira do usuário que fez a entrada.
+- Registro feliz: texto para inserir uma reflexão do que trouxe felicidade no dia.
+- Registro feliz: texto para inserir uma reflexão do que trouxe tristeza no dia.
+- 
+### Coleção "Humor"
+A coleção "Humor" armazena informações sobre as emoções registradas pelos usuários em suas entradas do diário. Cada documento nessa coleção terá os seguintes campos:
 
-### Coleção "Emoções"
-A coleção "Emoções" armazena informações sobre as emoções registradas pelos usuários em suas entradas do diário. Cada documento nessa coleção terá os seguintes campos:
+- id: Um identificador exclusivo para cada registro de humor.
+- Titulo: O nome da emoção (por exemplo, "Feliz", "Triste", "Empolgado").
 
-- _id: Um identificador exclusivo para cada registro de emoção.
-- nome: O nome da emoção (por exemplo, "Feliz", "Triste", "Empolgado").
-- descrição: Uma descrição mais detalhada da emoção.
-- cor: Uma cor associada à emoção para fins de visualização.
-- id_usuario: O identificador do usuário que associou a emoção (pode ser nulo).
+### Coleção "Usuarios"
+A coleção "Usuarios" armazena informações sobre usuário registrados na aplicação:
 
+- Username: Chave primária da tabela que é definida pelo usuário.
+- Nome: O nome do usuário.
+- Nome_alternativo: Nome alternativo o qual o usuário gostaria de ser tratado pela aplicação (pode ser nulo).
+- Data_Nascimento: Data de nascimento do usuário.
+- Email: Endereço de e-mail do usuário.
+- Senha: Senha criptografada definida pelo usuário.
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+### Coleção "Nota_Mensal"
+A coleção "NotaMensal" armazena informações sobre uma nota ou mensagem que o usuário gostaria de enfatizar na aplicação durante o mês vigente:
+
+- id: Um identificador exclusivo para cada entrada do diário.
+- username: chave estrangeira do usuário que fez a entrada.
+- data: A data e hora da entrada.
+- texto: O texto da entrada da nota mensal.
+ 
+O Arquivo que contém os scripts de criação do banco de dados foi gerado pelo Entity Framework junto com a criação da API utilizando o conceito de "Migrações" ou "Migrations.
+Cada arquivo migration guarda o histórico desde a criação à alterações no banco de dados que podem ser verificadas neste <a href='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/API/MoodTracker_API/MoodTracker/Migrations' target="_blank" > Link </a>
 
 ## Tecnologias Utilizadas
 
