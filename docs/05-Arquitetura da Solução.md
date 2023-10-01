@@ -123,60 +123,61 @@ A aplicação estará assim que pronto, disponível para download na loja Google
 
 ## Qualidade de Software
 
-Qualidade de Software
 Sabemos que a qualidade de software é a medida em que um software atende aos requisitos do usuário e aos padrões de qualidade estabelecidos. Isso inclui a capacidade do software de funcionar corretamente, de ser fácil de usar e de ser seguro e confiável. A qualidade de software também pode ser medida pela eficiência e eficácia do software, como o seu desempenho por exemplo.
-Sendo assim o aplicativo do MoodTracker passou por um rígido processo de controle de qualidade. Foi desenvolvido para ajudar os usuários a relatar suas experiências, tanto positivas quanto negativas assim como uma válvula de escape para relatar seus problemas, refletir e acompanhar seu humor. O aplicativo possui uma interface intuitiva e fácil de usar, o que o torna acessível para usuários de todos os níveis de habilidade.
-Além disso, é uma aplicação de alta segurança e performance, voltada para o uso pessoal. Ele terá uma escala de humor e opção de exportar as informações sempre que quiser.
+
+Sendo assim o aplicativo do MoodTracker passou por um rígido processo de controle de qualidade. Foi desenvolvido para ajudar os usuários a relatar suas experiências, tanto positivas quanto negativas assim como uma válvula de escape para relatar seus problemas, refletir e acompanhar seu humor. O aplicativo possui uma interface intuitiva e fácil de usar, o que o torna acessível para usuários de todos os níveis de habilidade. Além disso, é uma aplicação de alta segurança e performance, voltada para o uso pessoal. Ele terá uma escala de humor e opção de exportar as informações sempre que quiser.
 
 Segundo a NBR ISO/IEC 9126 realizamos processo do controle de qualidade do projeto MoodTracker a partir das seguintes características e sub características.
+
 Funcionalidade: Ajuda os usuários a criar relatos diários. Incluir o nível de humor diário oferece recursos de para exportar e filtros.
-• Adequação: Presença de conjunto de funções e sua apropriação para tarefas.
-• Acurácia: Geração de resultados ou efeitos corretos;
-• Conformidade: Estar de acordo com normas, convenções e regulamentações.
+
+  • Adequação: Presença de conjunto de funções e sua apropriação para tarefas.
+
+  • Acurácia: Geração de resultados ou efeitos corretos;
+
+  • Conformidade: Estar de acordo com normas, convenções e regulamentações.
 
 Confiabilidade: É seguro e confiável. Possui autenticação (Login/Cadastro) de usuários. Garante a proteção das informações pessoais dos usuários. 
-• Segurança de Acesso: Capacidade de evitar acesso não autorizado a
-programas e dados;
-• Maturidade: Indicação de baixa frequência de falhas;
-• Tolerância a falhas: Manter nível de desempenho em caso de falha;
-• Recuperabilidade: Capacidade de se restabelecer e restaurar dados após
-falha.
+
+  • Segurança de Acesso: Capacidade de evitar acesso não autorizado a
+  programas e dados;
+
+  • Maturidade: Indicação de baixa frequência de falhas;
+
+  • Tolerância a falhas: Manter nível de desempenho em caso de falha;
+
+  • Recuperabilidade: Capacidade de se restabelecer e restaurar dados após
+  falha.
 
 Portabilidade: Disponível como aplicação web e mobile. Oferece suporte a diferentes sistemas operacionais. 
-• Adaptabilidade: Capacidade de ser adaptado a ambientes diferentes;
-• Capacidade para ser testado: Medida do esforço necessário para se instalar o
-produto;
-• Conformidade: Medida do nível de conformidade do produto com padrões
-referentes à portabilidade;
-• Capacidade para substituir: Medida de esforço necessário para usar o
-produto em substituição a outro, previamente especificado.
+
+  • Adaptabilidade: Capacidade de ser adaptado a ambientes diferentes;
+
+  • Capacidade para ser testado: Medida do esforço necessário para se instalar o
+  produto;
+
+  • Conformidade: Medida do nível de conformidade do produto com padrões
+  referentes à portabilidade;
+ 
+  • Capacidade para substituir: Medida de esforço necessário para usar o
+  produto em substituição a outro, previamente especificado.
 
 Manutenibilidade: Possui atualizações regulares para melhorias e correções; oferece suporte técnico aos usuários; mantém um registro de erros e bugs para solucioná-los de forma eficaz.
-• Analisabilidade: Facilidade de diagnosticar deficiências e causas de falhas;
-• Modificabilidade: Facilidade de modificação e remoção de defeitos;
-• Estabilidade: Ausência de riscos de efeitos inesperados;
+
+  • Analisabilidade: Facilidade de diagnosticar deficiências e causas de falhas;
+
+  • Modificabilidade: Facilidade de modificação e remoção de defeitos;
+
+  • Estabilidade: Ausência de riscos de efeitos inesperados;
+
 • Testabilidade: Facilidade de ser testado.
 
 Eficiência: Tempo de resposta satisfatório e requisitos de hardware baixos provando ser uma aplicação funcional para todos os tipos de aparelhos e usuários.
-• Comportamento em relação a tempo: tempo de resposta, de processamento;
-• Comportamento em relação a recursos: medida da quantidade de recursos
-necessários (CPU, disco e memória, dentre outros) e a duração; 
+
+  • Comportamento em relação a tempo: tempo de resposta, de processamento;
+
+  • Comportamento em relação a recursos: medida da quantidade de recursos
+  necessários (CPU, disco e memória, dentre outros) e a duração; 
 
 Em resumo, o MoodTracker é um exemplo de software de qualidade, que oferece aos usuários um conjunto abrangente de recursos para os usuários conseguirem relatar seus dilemas diários. Auxiliar a acompanhar e relatar todas as informações que desejarem incluir. Com interface intuitiva e recursos de segurança avançados, o aplicativo é a escolha perfeita para quem deseja manter um acompanhamento diário, das alterações de humor, emoções e possíveis conflitos enfrentados com eficiência e confiabilidade.
 
-Funcionalidade:
-Ajuda os usuários a criar relatos diários.
-Incluir o nivel de humor diário
-Oferece recursos de para exportar e filtros.
-Confiabilidade:
-É seguro e confiável.
-Possui autenticação(Login/Cadastro) de usuários.
-Garante a proteção das informações pessoais dos usuários.
-Portabilidade:
-Disponível como aplicativo móvel.
-Pode ser usado em diferentes dispositivos móveis (tablets/smartphones).
-Tem suporte a diferentes sistemas operacionais móveis.
-Manutenção:
-Possui atualizações regulares para melhorias e correções;
-Oferece suporte técnico aos usuários;
-Mantém um registro de erros e bugs para solucioná-los de forma eficaz.
