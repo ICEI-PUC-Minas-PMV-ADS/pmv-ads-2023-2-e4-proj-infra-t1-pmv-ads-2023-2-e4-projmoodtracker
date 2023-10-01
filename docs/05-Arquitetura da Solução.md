@@ -131,53 +131,35 @@ Segundo a NBR ISO/IEC 9126 realizamos processo do controle de qualidade do proje
 
 Funcionalidade: Ajuda os usuários a criar relatos diários. Incluir o nível de humor diário oferece recursos de para exportar e filtros.
 
-  • Adequação: Presença de conjunto de funções e sua apropriação para tarefas.
-
-  • Acurácia: Geração de resultados ou efeitos corretos;
-
-  • Conformidade: Estar de acordo com normas, convenções e regulamentações.
+* Adequação: Presença de conjunto de funções e sua apropriação para tarefas.
+* Acurácia: Geração de resultados ou efeitos corretos;
+* Conformidade: Estar de acordo com normas, convenções e regulamentações.
 
 Confiabilidade: É seguro e confiável. Possui autenticação (Login/Cadastro) de usuários. Garante a proteção das informações pessoais dos usuários. 
 
-  • Segurança de Acesso: Capacidade de evitar acesso não autorizado a
-  programas e dados;
-
-  • Maturidade: Indicação de baixa frequência de falhas;
-
-  • Tolerância a falhas: Manter nível de desempenho em caso de falha;
-
-  • Recuperabilidade: Capacidade de se restabelecer e restaurar dados após
-  falha.
+* Segurança de Acesso: Capacidade de evitar acesso não autorizado a programas e dados;
+* Maturidade: Indicação de baixa frequência de falhas;
+* Tolerância a falhas: Manter nível de desempenho em caso de falha;
+* Recuperabilidade: Capacidade de se restabelecer e restaurar dados após falha.
 
 Portabilidade: Disponível como aplicação web e mobile. Oferece suporte a diferentes sistemas operacionais. 
 
-  • Adaptabilidade: Capacidade de ser adaptado a ambientes diferentes;
-
-  • Capacidade para ser testado: Medida do esforço necessário para se instalar o
-  produto;
-
-  • Conformidade: Medida do nível de conformidade do produto com padrões
-  referentes à portabilidade;
- 
-  • Capacidade para substituir: Medida de esforço necessário para usar o
-  produto em substituição a outro, previamente especificado.
+* Adaptabilidade: Capacidade de ser adaptado a ambientes diferentes;
+* Capacidade para ser testado: Medida do esforço necessário para se instalar o produto;
+* Conformidade: Medida do nível de conformidade do produto com padrões referentes à portabilidade;
+* Capacidade para substituir: Medida de esforço necessário para usar o produto em substituição a outro, previamente especificado.
 
 Manutenibilidade: Possui atualizações regulares para melhorias e correções; oferece suporte técnico aos usuários; mantém um registro de erros e bugs para solucioná-los de forma eficaz.
 
-  • Analisabilidade: Facilidade de diagnosticar deficiências e causas de falhas;
-
-  • Modificabilidade: Facilidade de modificação e remoção de defeitos;
-
-  • Estabilidade: Ausência de riscos de efeitos inesperados;
-
-• Testabilidade: Facilidade de ser testado.
+* Analisabilidade: Facilidade de diagnosticar deficiências e causas de falhas;
+* Modificabilidade: Facilidade de modificação e remoção de defeitos;
+* Estabilidade: Ausência de riscos de efeitos inesperados;
+* Testabilidade: Facilidade de ser testado.
 
 Eficiência: Tempo de resposta satisfatório e requisitos de hardware baixos provando ser uma aplicação funcional para todos os tipos de aparelhos e usuários.
 
-  • Comportamento em relação a tempo: tempo de resposta, de processamento;
-
-  • Comportamento em relação a recursos: medida da quantidade de recursos
-  necessários (CPU, disco e memória, dentre outros) e a duração; 
+*  Comportamento em relação a tempo: tempo de resposta, de processamento
+*  Comportamento em relação a recursos: medida da quantidade de recursos necessários (CPU, disco e memória, dentre outros) e a duração; 
 
 Em resumo, o MoodTracker é um exemplo de software de qualidade, que oferece aos usuários um conjunto abrangente de recursos para os usuários conseguirem relatar seus dilemas diários. Auxiliar a acompanhar e relatar todas as informações que desejarem incluir. Com interface intuitiva e recursos de segurança avançados, o aplicativo é a escolha perfeita para quem deseja manter um acompanhamento diário, das alterações de humor, emoções e possíveis conflitos enfrentados com eficiência e confiabilidade.
 
