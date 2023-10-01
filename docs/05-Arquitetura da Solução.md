@@ -70,7 +70,7 @@ Cada arquivo migration guarda o histórico desde a criação à alterações no 
 
 A arquitetura da solução foi simplificada em três categorias: cliente, API e Banco de Dados (conforme figura abaixo).
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/7b520abf-2b9f-46ea-a9ca-8eeb6fef6e30)
+<img width="2084" alt="arquitetura da aplicação3" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/59934631/6aae9893-b573-431f-a8b2-f76c7c3abb45">
 
 ### Camada de Cliente:
 
@@ -94,9 +94,11 @@ Middleware de Autenticação: Utilizou-se middleware de autenticação para veri
 
 ### Camada de Banco de Dados:
 
-MongoDB: Utilizou-se o MongoDB como banco de dados NoSQL para armazenar dados de forma flexível e escalável.
+#### SQL Server:
 
-Esquema: Definiu-se os esquemas de coleção de acordo com as necessidades do aplicativo, estando preparados para lidar com mudanças nos esquemas ao longo do tempo.
+O modelo de SQL irá conter a estrutura necessárias das tabelas Registros, Humor e NotaMensal da aplicação.
+
+#### MongoDB: Utilizou-se o MongoDB como banco de dados NoSQL para tratar a tabela de usuários da aplicação bem como as questões de autenticação e segurança.
 
 ### As ferramentas empregadas no projeto foram:
 
@@ -104,8 +106,9 @@ Esquema: Definiu-se os esquemas de coleção de acordo com as necessidades do ap
 - Emulador da aplicação: Android Expo, NPM;
 - Ferramentas de comunicação: Whatsapp, Teams;
 - Gerencimaneto do projeto: GitHub Projects e MS Project;
-- Ferramentas de desenho de tela (wireframing): MarvelAPP, Heflo e Figma;
-- Ferramentas para diagramas (conceitual e lógico): Diagrams.net, Astah, Lucid Charts, BRMW e Figma;
+- GUI dos Banco de Dados: SQL Express e Robo 3T para MongoDB
+- Ferramentas de desenho de tela (wireframing): MarvelAPP e Figma;
+- Ferramentas para diagramas (conceitual e lógico): Diagrams.net, Astah, Heflo, Lucid Chart, BRMW e Figma;
 - Versionamento de código: GitHub e GitHub desktop.
 
 O editor de código foi escolhido pelo grupo pois é o mais prático e acessível para os integrantes, além de facilitar a alternação de quem está editando o código e salvando diretamente no reposítorio através do GitHub Desktop. Tem um bom dicionário de erros no código e permite acompanhar alterações em tempo real através do emulador do android studio.
