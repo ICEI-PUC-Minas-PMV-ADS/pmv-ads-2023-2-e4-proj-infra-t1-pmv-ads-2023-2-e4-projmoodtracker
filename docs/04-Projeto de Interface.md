@@ -22,15 +22,18 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes) via MarvelApp.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+Mapa de Fluxo e Wireframes:
+
+![Wireframe](img/mapafluxo.png)
+
+<a href="https://marvelapp.com/prototype/c13jb5h" target="_blank"> Link Wireframe Interativo</a>
+
+Estabelecendo foco em questões como agilidade e usabilidade. O projeto tem identidade visual padronizada em todas as telas e são projetadas para funcionamento em dispositivos WEB.
+
+Atendendo os requisitos funcionais RF-001, RF-005, RF-010  e não funcionais RNF-005, RNF-006, RNF-007 a tela "Homepage", "Cadastro", "Recuperação Senha" é apresentada ao usuário referente ao acesso à aplicação. Onde é solicitado as credenciais para quem já possui um cadastro, a opção para recuperação de senha e opção para cadastramento. 
+
+Plataforma: Sendo a primeira tela de exibição ao realizar o acesso, é apresentado ao usuário os registros do mês e ano vigente (ao acesso), sendo possível a alteração do filtro por mês e ano no menu lateral. Cada registro age como um botão que exibe o texto, humor, o que deixou feliz e o que deixou triste registrado, permitindo alterar ou deletar o mesmo. No menu lateral também possui opção de filtragem (por mês e ano) e pesquisa de registros e exibição da quantdade de registros e do humor mais escolhido no mês. Na parte superior possui a opção configurações que permite o usuário alterar dados cadastrais e desativar a conta. (Requisitos atendidos: RF-003, RF-002, RF-004, RF-006, RF-007, RF-008, RF-009, RF-010 e RF-011)
+
+
