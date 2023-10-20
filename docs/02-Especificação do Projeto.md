@@ -97,8 +97,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Permitir que o usuário visualize a quantidade de textos registrados no mês ou filtro | BAIXA | 
 |RF-009| Permitir que o usuário visualize o humor mais registrado em um período | MÉDIA | 
 |RF-010| Permitir que os textos/anotações sejam tageados por palavras-chave | BAIXA | 
-|RF-010| Permitir que o usuário insira uma nota/frase mensal | MÉDIA | 
-|RF-010| A aplicação deverá tratar o usuário com nome alternativo caso seja informado no cadastro | BAIXA | 
+|RF-011| Permitir que o usuário insira uma nota/frase mensal | MÉDIA | 
+|RF-012| A aplicação deverá tratar o usuário com nome alternativo caso seja informado no cadastro | BAIXA | 
 
 ### Requisitos não Funcionais
 
