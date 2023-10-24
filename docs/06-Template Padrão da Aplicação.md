@@ -1,12 +1,5 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+A estrutura da interface desktop seguirá um padrão comum entre as telas de login, cadastro de usuário, recuperação de senha e um padrão comum entre as telas da plataforma(Diário) e input(inclusão de texto). Nas telas condizentes com o usuário desconectado da aplicação consistem em duas divs sendo a da direita responsável pela entrada de dados do usuário. As telas condizentes com o usuário conectado na aplicação consistem em um cabeçalho, onde o usuário tem seu nome de cadastro exibido e opções como configurações e sair, também como uma div do lado esquerdo da tela onde o usuário tem opções como criar texto, filtrar, buscar e também dados de quantidades de registros no mês e humor do mês. Por fim, o conteúdo da plataforma(Diário) é apresentado ao usuário de forma centralizada na tela.
 
-Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+#### Desktop:
