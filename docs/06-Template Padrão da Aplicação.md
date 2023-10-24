@@ -21,3 +21,25 @@ As telas onde o usuário estiver desconectado apresentará uma div com as inform
 As telas onde o usuário estiver conectado apresentará um cabeçalho com a mensagem "Olá, Usuário!" com botão de *Configurações* e *Sair* e uma div com as opções *Criar texto*, *Filtrar* e *Buscar*. 
 
 ![Template Padrão](img/teladiario.png)
+
+## Cores e Fontes  
+
+### Cores  
+
+#4B57A1 - Cabeçalho (Lilás)  
+#2A2981 - Div  
+#EEEEEE - Tela de Fundo  
+#FFFFFF - Texto  
+#47525E - Texto  
+
+### Fontes  
+
+Roboto
+
+#### Título:  
+
+Tamanho 26  
+
+#### Texto comum:  
+
+Tamanho 23 
