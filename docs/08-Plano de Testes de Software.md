@@ -1,19 +1,30 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+|**Caso de Teste**|**CT-01 –Login**|
+| :-: | :-: |
+|Requisito Associado|RF-001 <p> - A aplicação deverá permitir que o usuário acesse o sistema informando usuário e senha válidos.|
+|Objetivo do Teste|Verificar se o usuário consegue efetuar login no sistema.|
+|Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.|
+|Critério do Êxito| O usuário consegue acessar a página principla do sistema|
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+|**Caso de Teste**|**CT-02 –Realizar registro de texto**|
+| :-: | :-: |
+|Requisito Associado|RF-002 <p> - A aplicação deverá permitir que o usuário cadastre um registro de texto.|
+|Objetivo do Teste|Verificar se o usuário consegue registar texto.|
+|Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.<p>-Selecionnar o botão "ESCREVER TEXTO".<p>-Sistema habilita um campo de texto.<p>-Escrever o text desejado.|
+|Critério do Êxito| O sistema salva o texto escrito com a data de hoje e o apresenta na tela inicial|
 
-Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+|**Caso de Teste**|**CT-03 –Realizar busca por filtro**|
+| :-: | :-: |
+|Requisito Associado|RF-003 <p> - A aplicação deverá permitir que o usuário faça pesquisa utilizando filtro de data.|
+|Objetivo do Teste|Verificar se o usuário consegue filtrar registros de texto por determinada data.|
+|Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.<p>-Selecionnar o botão "FILTRAR".<p>-Sistema habilita um campo de data.<p>-Selecionar determinada data.|
+|Critério do Êxito| O sistema exibe entradas da data determinada pelo usuário|
+
+|**Caso de Teste**|**CT-04 –Realizar busca por palavra**|
+| :-: | :-: |
+|Requisito Associado|RF-004 <p> - A aplicação deverá permitir que o usuário faça pesquisa utilizando filtro de texto.|
+|Objetivo do Teste|Verificar se o usuário consegue filtrar registros por texto.|
+|Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.<p>-Selecionnar o botão "BUSCAR".<p>-Sistema habilita um campo de texto.<p>-Informar determinada palavra.|
+|Critério do Êxito| O sistema exibe entradas com a palavra determinada pelo usuário|
