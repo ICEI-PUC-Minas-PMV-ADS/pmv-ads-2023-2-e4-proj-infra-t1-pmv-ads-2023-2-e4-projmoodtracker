@@ -6,6 +6,7 @@ import { SignIn } from '../pages/SignIn';
 import { SignUp } from '../pages/SignUp';
 import { CreateNote } from '../pages/CreateNote';
 import { ChangePass } from '../pages/ChangePass';
+import { EditNote } from '../pages/EditNote';
 
 
 
@@ -26,6 +27,12 @@ export default function Routering() {
         <Route path="/CreateNote" element={
           <ProtectedRoutes>
             <CreateNote />
+          </ProtectedRoutes>
+        }
+        />
+        <Route path="/EditNote" element={
+          <ProtectedRoutes>
+            <EditNote />
           </ProtectedRoutes>
         }
         />

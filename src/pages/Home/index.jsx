@@ -30,12 +30,15 @@ export function Home() {
   const NomeUsuario = localStorage.getItem('NomeUsuario');
   const token = localStorage.getItem('token');
   const [searchClick, setSearchClick] = useState(false)
+  const [searchMes, setSearchMes] = useState(false)
   const [msgLogin, setMsgLogin] = useState('');
   const [registros, setRegistros] = useState([]);
   const [humor, setHumor] = useState([]);
   const [mediaHumor, setMediaHumor] = useState(0);
   const [notaDia, setNotaDia] = useState('');
-  const [nome, setNome] = useState('');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [numberMes, setNumberMes] = useState('');
+  const [pesquisa, setPesquisa] = useState(false);
 
   const monthMap = {
     1: 'JAN',
@@ -51,6 +54,11 @@ export function Home() {
     11: 'NOV',
     12: 'DEZ',
   };
+
+  function searchMesFiltro() {
+    setSearchMes(!searchMes)
+  };
+
 
   useEffect(() => {
     const soma = humor.reduce((acumulador, numero) => acumulador + numero, 0);
@@ -70,8 +78,18 @@ export function Home() {
     setSearchClick(true)
   }
 
+  function search() {
+    setPesquisa(true);
+  }
+
   function closeInput() {
-    setSearchClick(false)
+    setSearchClick(false);
+    setPesquisa(false);
+  }
+
+  function handleMonthClick(mes) {
+    setPesquisa(true);
+    setNumberMes(mes);
   }
 
   useEffect(() => {
@@ -194,6 +212,13 @@ export function Home() {
 
   };
 
+  function handlePesquisa(e) {
+    setSearchTerm(e.target.value)
+  }
+
+
+
+
   return (
 
     <Container>
@@ -206,7 +231,7 @@ export function Home() {
         </CreateText>
 
         <Filter>
-          <FaFilter />
+          <FaFilter onClick={searchMesFiltro} />
           <span>FILTRAR</span>
         </Filter>
 
@@ -237,6 +262,24 @@ export function Home() {
       </MonthNote>
 
       <Content>
+        {searchMes && (
+          <section >
+            <div style={{ display: "flex", width: '100%', flexDirection: "row", alignItems:'center', justifyContent: 'space-evenly'}}>
+              {Object.values(monthMap).map((month, index) => (
+                <button
+                  key={index}
+                  style={{ color: 'black', borderRadius: 10, border: 0 }}
+                  onClick={() => handleMonthClick(index+1)} // manda pra função o numero do mes
+                >
+                  {month}
+                </button>
+              ))}
+            </div>
+            <span>
+              < BiMessageSquareX onClick={() => {setSearchMes(!searchMes)}}/>
+            </span>
+          </section>
+        )}
 
         {searchClick && (
           <section>
@@ -244,10 +287,11 @@ export function Home() {
               placeholder="Faça sua pesquisa"
               type="text"
               icon={BiSearch}
+              handleOnChange={handlePesquisa}
             />
 
             <div>
-              <span><BiSearch /></span>
+              <span><BiSearch onClick={search} /></span>
             </div>
             <span>
               < BiMessageSquareX onClick={closeInput} />
@@ -256,14 +300,31 @@ export function Home() {
         )}
 
         <div style={{ display: 'flex', flexDirection: 'column', height: '100%', overflowY: 'scroll' }}>
-          {registros.map((registro, index) => (
-            <Note
-              key={index}
-              day={registro.data.substring(8, 10)} // Extrai o dia da data
-              mes={monthMap[new Date(registro.data).getMonth() + 1]} // Converte o número do mês para sigla
-              texto={registro.texto}
-            />
-          ))}
+          {!!pesquisa ?
+            registros
+              .filter(registro => registro.texto.includes(searchTerm))
+              .filter(registro => new Date(registro.data).getMonth() + 1 === numberMes)
+              .map((registro, index) => (
+                <Note
+                  key={index}
+                  day={registro.data.substring(8, 10)}
+                  mes={monthMap[new Date(registro.data).getMonth() + 1]}
+                  texto={registro.texto}
+                  titulo={registro.titulo}
+                  id={registro.id}
+                />
+              ))
+            :
+            registros.map((registro, index) => (
+              <Note
+                key={index}
+                day={registro.data.substring(8, 10)}
+                mes={monthMap[new Date(registro.data).getMonth() + 1]}
+                texto={registro.texto}
+                titulo={registro.titulo}
+                id={registro.id}
+              />
+            ))}
         </div>
 
       </Content>

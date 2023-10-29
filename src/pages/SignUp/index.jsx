@@ -14,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 export function SignUp() {
 
   const navigate = useNavigate()
-  const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJsZWFuZHJvIiwibmJmIjoxNjk4NTAzMzQwLCJleHAiOjE2OTg1MzIxNDAsImlhdCI6MTY5ODUwMzM0MH0.VYyjPOcotslCbIlZ4UQotWFC5v7E0au4KXwHdebubE0"; //Remover caso alterar na API a forma do CREATE sem necessidade de auth
+  const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJsZWFuZHJvIiwibmJmIjoxNjk4NjA1NzM3LCJleHAiOjE2OTg2MzQ1MzcsImlhdCI6MTY5ODYwNTczN30.iNVgPdytM7_wPp60kba4B_qocWnOYWiUmnwtRs9FMB8"; //Remover caso alterar na API a forma do CREATE sem necessidade de auth
 
   const [username, setUsername] = useState('')
   const [nome, setNome] = useState('')
@@ -185,7 +185,7 @@ export function SignUp() {
 
         <Button title="Cadastrar" onClick={registerAuth} />
 
-        <Link to="/">
+        <Link to="/login">
           Voltar para o Login
         </Link>
 

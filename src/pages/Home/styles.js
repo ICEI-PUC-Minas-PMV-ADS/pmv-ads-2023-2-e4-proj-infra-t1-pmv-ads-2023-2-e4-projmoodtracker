@@ -47,7 +47,7 @@ export const Content = styled.div `
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 100%;
     height: 100px;
     background-color: #EEEEEE;
   }

@@ -32,7 +32,7 @@ export function ChangePass(){
 
         <Button title="Redefinir Senha" />
 
-        <Link to="/">
+        <Link to="/login">
           Voltar para o Login
         </Link>
 
