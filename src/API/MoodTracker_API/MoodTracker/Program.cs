@@ -50,6 +50,21 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
+app.UseCors(builder =>
+{
+    builder.WithOrigins("*") // Substitua com o URL do seu site
+           .AllowAnyHeader()
+           .AllowAnyMethod();
+});
+
+app.UseCors(options =>
+{
+    options.AllowAnyOrigin();
+    options.AllowAnyMethod();
+    options.AllowAnyHeader();
+});
+
 app.MapControllers();
 
 app.Run();
+
