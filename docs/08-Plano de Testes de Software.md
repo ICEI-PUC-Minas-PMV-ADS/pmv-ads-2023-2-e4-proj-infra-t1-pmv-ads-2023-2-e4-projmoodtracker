@@ -36,9 +36,9 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 |**Caso de Teste**|**CT-03 –Realizar busca por filtro**|
 | :-: | :-: |
-|Requisito Associado|RF-003 <p> - A aplicação deverá permitir que o usuário faça pesquisa utilizando filtro de data.|
+|Requisito Associado|RF-003 <p> - A aplicação deverá permitir que o usuário faça pesquisa utilizando filtro de data por mês.|
 |Objetivo do Teste|Verificar se o usuário consegue filtrar registros de texto por determinada data.|
-|Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.<p>-Selecionnar o botão "FILTRAR".<p>-Sistema habilita um campo de data.<p>-Selecionar determinada data.|
+|Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.<p>-Selecionnar o botão "FILTRAR".<p>-Sistema apresenta os meses disponíveis.<p>-Selecionar determinado mês.|
 |Critério do Êxito| O sistema exibe entradas da data determinada pelo usuário|
 
 |**Caso de Teste**|**CT-04 –Realizar busca por palavra**|
