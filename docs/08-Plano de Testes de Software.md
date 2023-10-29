@@ -13,7 +13,7 @@ As seguintes ferramentas serão empregadas neste projeto de testes:
 
 - Testes deverão ser desenvolvido com um pequeno volume de dados, baseados em testes manuais.
 - Os dados serão criados em tempo real, por desenvolvedores da aplicação e usuários.
-- A aplicação será desenvolvida em linguagem React Native, com html, css, JSON.
+- A aplicação será desenvolvida em linguagem React e React Native
 - Todos os testadores deverão ter configurações de desktop/mobile similares aos que serão disponibilizadas aos colaboradores da empresa.
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
