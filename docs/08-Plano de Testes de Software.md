@@ -27,7 +27,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.|
 |Critério do Êxito| O usuário consegue acessar a página principla do sistema|
 
-
 |**Caso de Teste**|**CT-02 –Realizar registro de texto**|
 | :-: | :-: |
 |Requisito Associado|RF-002 <p> - A aplicação deverá permitir que o usuário cadastre um registro de texto.|
@@ -48,3 +47,10 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |Objetivo do Teste|Verificar se o usuário consegue filtrar registros por texto.|
 |Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Informar dados de login.<p>-Selecionar o botão ENTRAR para efetuar o login.<p>-Selecionnar o botão "BUSCAR".<p>-Sistema habilita um campo de texto.<p>-Informar determinada palavra.|
 |Critério do Êxito| O sistema exibe entradas com a palavra determinada pelo usuário|
+
+|**Caso de Teste**|**CT-05 –Criar conta**|
+| :-: | :-: |
+|Requisito Associado|RF-005 <p> - A aplicação deverá permitir que o usuário crie uma conta.|
+|Objetivo do Teste|Verificar se o usuário consegue criar uma conta.|
+|Passos|<p>-Acessar o navegador.<p>-Informar ao navegador à URL da aplicação.<p>-Selecionar o link "CRIAR CONTA".<p>-Preencher os campos obrigatórios.<p>- Acionar o botão "CADASTRAR".|
+|Critério do Êxito| Sistema exibe mensagem de sucesso e retorna à tela de login|
