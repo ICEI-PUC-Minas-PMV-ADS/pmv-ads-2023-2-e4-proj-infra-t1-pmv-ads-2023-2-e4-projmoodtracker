@@ -22,5 +22,17 @@ Texto salvo com sucesso:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/90872650/eb003264-bf1a-4de2-9ede-fabe9cccd95c)
 
+## Test Case 03 "Realizar busca por filtro"
+Ao seguir os passos elicitados no teste o sistema apresenta os meses e os registros disponíveis de cada mês do usuário
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/90872650/0f2c96fd-403a-4453-9722-9a47432ca5e6)
+
+## Test Case 04 "Realizar busca por palavra"
+Ao seguir os passos elicitados no teste o sistema apresenta campo de pesquisa e retorna registros de acordo com o valor de entrada
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/assets/90872650/5b6f34c5-0a21-41bd-a411-b4b6eda5c16d)
+
+
+
 
 
