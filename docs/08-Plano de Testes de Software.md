@@ -1,5 +1,25 @@
 # Plano de Testes de Software
 
+O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+
+##  1. Requisitos para Realização do Teste
+
+As seguintes ferramentas serão empregadas neste projeto de testes:
+
+- Navegador da Internet <p> - Chrome, Firefox ou Edge
+- Conectividade de Internet para acesso às plataformas (APISs)
+
+##  2. Ambiente de teste
+
+- Testes deverão ser desenvolvido com um pequeno volume de dados, baseados em testes manuais.
+- Os dados serão criados em tempo real, por desenvolvedores da aplicação e usuários.
+- A aplicação será desenvolvida em linguagem React Native, com html, css, JSON.
+- Todos os testadores deverão ter configurações de desktop/mobile similares aos que serão disponibilizadas aos colaboradores da empresa.
+
+Os testes funcionais a serem realizados na aplicação são descritos a seguir.
+
+## Abordagem e Detalhamento de Testes
+
 |**Caso de Teste**|**CT-01 –Login**|
 | :-: | :-: |
 |Requisito Associado|RF-001 <p> - A aplicação deverá permitir que o usuário acesse o sistema informando usuário e senha válidos.|
