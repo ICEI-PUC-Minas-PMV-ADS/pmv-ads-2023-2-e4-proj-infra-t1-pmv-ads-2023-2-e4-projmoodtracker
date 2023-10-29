@@ -1,6 +1,18 @@
 # Template Padrão da Aplicação
 
-A estrutura da interface desktop seguirá um padrão comum entre as telas de login, cadastro de usuário, recuperação de senha e um padrão comum entre as telas da plataforma(Diário) e input(inclusão de texto). Nas telas condizentes com o usuário desconectado da aplicação consistem em duas divs sendo a da direita responsável pela entrada de dados do usuário. As telas condizentes com o usuário conectado na aplicação consistem em um cabeçalho, onde o usuário tem seu nome de cadastro exibido e opções como configurações e sair, também como uma div do lado esquerdo da tela onde o usuário tem opções como criar texto, filtrar, buscar e também dados de quantidades de registros no mês e humor do mês. Por fim, o conteúdo da plataforma(Diário) é apresentado ao usuário de forma centralizada na tela.
+A estrutura da interface desktop e mobile seguirão um padrão comum entre as telas de login, cadastro de usuário, recuperação de senha e também entre as telas da plataforma (após logado) que terão divs dinâmicas de acordo com a funcionalidade utilizada pelo usuário.
+
+### Logomarca, Cores padrões e iconografia
+
+Através do Canva - ferramenta de criação de artes gráficas grátis - definimos o nome e a logomarca da aplicação, denominada MoodTracker. A logomarca possui duas variações, sendo sua versão de forma vertical e horizontal que serão usadas em diferentes telas pelas páginas da aplicação.
+
+![Logomarca MoodTracker](img/logos.png)
+
+Já a fonte, selecionamos a "Roboto" com as espressuras 100, 300, 400, 500 e 700 disponibilizada pelo Google Fonts gratuitamente. 
+
+Selecionamos a iconografia grátis disponibilizada pelo site http://www.gonzodesign.nl/gonzocons/ onde contém os ícones que seguirá o padrão visual da aplicação como um todo, e atende de forma clara e objetiva a comunicação com o usuário de acordo com sua finalidade.
+
+![Iconografia](img/iconografia.png)
 
 #### Desktop: 
 
@@ -12,25 +24,15 @@ A estrutura da interface desktop seguirá um padrão comum entre as telas de log
 
 ### Páginas com o usuário desconectado no Desktop
 
-As telas onde o usuário estiver desconectado apresentará uma div com as informações sobre Login, Cadastro e Recuperação de Senha.
+Antes de realizar a autenticação o usuário poderá navegar entre as páginas de Login, Cadastro e Recuperação de Senha.
 
 ![Template Padrão](img/telalogin.png)
 
 ### Páginas com o usuário conectado no Desktop 
 
-As telas onde o usuário estiver conectado apresentará um cabeçalho com a mensagem "Olá, Usuário!" com botão de *Configurações* e *Sair* e uma div com as opções *Criar texto*, *Filtrar* e *Buscar*. 
+As telas onde o usuário estiver autenticado apresentará a interface da plataforma com o conteúdo do usuário conectado. 
 
 ![Template Padrão](img/teladiario.png)
-
-## Cores e Fontes  
-
-### Cores  
-
-#4B57A1 - Cabeçalho (Lilás)  
-#2A2981 - Div  
-#EEEEEE - Tela de Fundo  
-#FFFFFF - Texto  
-#47525E - Texto  
 
 ### Fontes  
 
