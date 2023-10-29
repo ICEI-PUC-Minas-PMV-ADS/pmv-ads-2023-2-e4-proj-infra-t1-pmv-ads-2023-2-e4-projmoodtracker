@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 
-export const Container = styled.div `
+export const Container = styled.div`
   display: flex;
-  align-items: center;  
+  width: 100%;
+  align-items: center; 
+  flex-direction: row;
+  
 
  h1 {
     color: #47525E;

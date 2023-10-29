@@ -1,4 +1,13 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const spin = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+`;
 
 export const Container = styled.button`
   width: 150px;
@@ -11,6 +20,10 @@ export const Container = styled.button`
   height: 48px;
   border: 0;
   
+  .loading{
+    animation: ${spin} 1s linear infinite;
+  }
+
   &:disabled {
     opacity: 0.5;
   }

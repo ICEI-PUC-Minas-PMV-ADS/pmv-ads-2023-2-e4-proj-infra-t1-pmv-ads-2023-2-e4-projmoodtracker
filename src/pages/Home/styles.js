@@ -41,6 +41,48 @@ export const Content = styled.div `
   overflow-y: auto;
   display: inline;
   justify-content: left; 
+
+  section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    background-color: #EEEEEE;
+  }
+
+  section div span svg{
+    color: black;
+    cursor: pointer
+    
+  }
+
+  section div span svg:hover{
+    color: #AAAAAA;
+    cursor: pointer
+  }
+
+  section span {
+    padding: 10px;
+  }
+
+  section span svg:hover{
+    color: #BA0021;
+    cursor:pointer
+  }
+
+
+  svg {
+    display: block;
+    margin: 0 auto;    
+    font-size: 20px;
+    color: black;
+  }
+
+
+
+
 `;
 
 export const CreateText = styled(Link)`
@@ -104,6 +146,8 @@ export const Search = styled.button`
     font-size: 50px;
     color: white;
   }
+
+
 `;
 
 

@@ -1,10 +1,15 @@
 import { Container } from "./styles";
 
-export function Note() {
+export function Note({ day, mes, texto }) {
   return (
-    <Container> 
-        <h1> 01 OUT</h1>
-        <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsum cupiditate placeat, repellendus commodi molestias ratione ad assumenda alias reprehenderit ea, delectus sapiente omnis, aspernatur quae magni! Magni, veritatis consectetur?</span>
-    </Container>
+    <div style={{display: 'flex', padding: 20, alignItems: 'center', justifyContent: 'flex-start'}}>
+      <div style={{ width: '5%', color: '#47525E' }}>
+        <h1> {day} {mes}</h1>
+      </div>
+      <Container>
+        <span> {texto} </span>
+      </Container>
+    </div>
+
   );
 }

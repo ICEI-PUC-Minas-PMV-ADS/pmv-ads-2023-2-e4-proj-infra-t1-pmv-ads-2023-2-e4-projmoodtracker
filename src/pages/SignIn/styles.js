@@ -16,7 +16,15 @@ export const Container = styled.div`
    }
 `;
 
-export const Form = styled.form `
+export const TextErrorInvalid = styled.h2`
+  font-size: 18px;
+  color: red;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+`;
+
+export const Form = styled.form`
   width: 400px;
   padding: 0 20px;
   flex-direction: column;
@@ -38,7 +46,7 @@ export const Form = styled.form `
   }
 `;
 
-export const Img = styled.div `
+export const Img = styled.div`
   display: flex;
   align-items: center;
 
