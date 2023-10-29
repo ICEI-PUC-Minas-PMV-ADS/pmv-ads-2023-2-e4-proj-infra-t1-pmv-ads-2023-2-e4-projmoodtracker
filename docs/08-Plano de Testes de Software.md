@@ -6,7 +6,7 @@ O Plano de Testes de Software é gerado a partir da especificação do sistema e
 
 As seguintes ferramentas serão empregadas neste projeto de testes:
 
-- Navegador da Internet <p> - Chrome, Firefox ou Edge
+- Navegador da Internet <p>-Chrome, Firefox ou Edge
 - Conectividade de Internet para acesso às plataformas (APISs)
 
 ##  2. Ambiente de teste
