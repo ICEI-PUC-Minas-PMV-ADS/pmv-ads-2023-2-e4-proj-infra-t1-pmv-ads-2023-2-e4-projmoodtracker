@@ -8,7 +8,7 @@
 
 Mood Tracker - Aplicação voltada para pessoas em tratamento de doenças mentais que utilizam a escrita de um diário como opção terapeutica.
 
-![Wireframe WEB](img/moodtracker_logo_white.png)
+![Wireframe WEB](docs/img/logo_mood.png)
 
 ## Integrantes
 
