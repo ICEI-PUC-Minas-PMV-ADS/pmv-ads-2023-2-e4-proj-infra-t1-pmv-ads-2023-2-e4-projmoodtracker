@@ -32,7 +32,7 @@ namespace MoodTracker.Controllers
         }
 
         //Criação de um novo usuário
-
+        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Create(UsuarioDto model)
         {

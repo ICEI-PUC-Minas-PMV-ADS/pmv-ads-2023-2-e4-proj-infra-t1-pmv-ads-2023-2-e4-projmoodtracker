@@ -12069,24 +12069,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leand\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\bimbo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\Desktop\\Projeto Do GIT Lobo\\pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker\\src\\API\\MoodTracker_API\\MoodTracker\\MoodTracker.csproj",
+      "projectUniqueName": "C:\\Users\\bimbo\\Documents\\GitHub\\pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker\\src\\API\\MoodTracker_API\\MoodTracker\\MoodTracker.csproj",
       "projectName": "MoodTracker",
-      "projectPath": "C:\\Users\\leand\\Desktop\\Projeto Do GIT Lobo\\pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker\\src\\API\\MoodTracker_API\\MoodTracker\\MoodTracker.csproj",
-      "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\Desktop\\Projeto Do GIT Lobo\\pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker\\src\\API\\MoodTracker_API\\MoodTracker\\obj\\",
+      "projectPath": "C:\\Users\\bimbo\\Documents\\GitHub\\pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker\\src\\API\\MoodTracker_API\\MoodTracker\\MoodTracker.csproj",
+      "packagesPath": "C:\\Users\\bimbo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bimbo\\Documents\\GitHub\\pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker\\src\\API\\MoodTracker_API\\MoodTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\bimbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12170,7 +12169,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
