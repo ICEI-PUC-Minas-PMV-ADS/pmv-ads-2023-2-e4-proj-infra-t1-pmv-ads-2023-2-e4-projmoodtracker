@@ -6,7 +6,7 @@
 
 `EIXO 4`
 
-Mood Tracker - Aplicação voltada para pessoas em tratamento de doenças mentais que utilizam a escrita de um diário como opção terapeutica.
+Aplicação voltada para pessoas em tratamento de doenças mentais que utilizam a escrita de um diário como opção terapeutica.
 
 ![Wireframe WEB](docs/img/logo_mood.png)
 
