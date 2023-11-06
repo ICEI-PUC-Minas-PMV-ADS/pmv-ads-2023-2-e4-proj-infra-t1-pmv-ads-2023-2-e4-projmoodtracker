@@ -20,9 +20,18 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 Mapa de Fluxo e Wireframes:
 
-![Wireframe](img/mapafluxo.png)
+###WEB:
 
-<a href="https://marvelapp.com/prototype/c13jb5h" target="_blank"> Link Wireframe Interativo</a>
+![Wireframe WEB](img/mapafluxo.png)
+
+<a href="https://marvelapp.com/prototype/c13jb5h" target="_blank"> Link Wireframe Interativo WEB</a>
+
+
+###MOBILE:
+
+![Wireframe Mobile](img/flowmap_mobile.png)
+
+<a href="https://marvelapp.com/prototype/a1jgb5b" target="_blank"> Link Wireframe Interativo Mobile</a>
 
 Estabelecendo foco em questões como agilidade e usabilidade. O projeto tem identidade visual padronizada em todas as telas e são projetadas para funcionamento em dispositivos WEB.
 
