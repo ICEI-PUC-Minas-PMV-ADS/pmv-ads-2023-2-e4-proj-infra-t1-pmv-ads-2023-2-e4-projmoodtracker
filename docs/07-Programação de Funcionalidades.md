@@ -21,15 +21,18 @@ A API possui os controladores de cada modelo (classes) para a determinação das
 Determina as rotas da classe Usuarios, permitindo a criação, atualização e autenticação do usuário na aplicação.
 Também possui rotas para um obtenção de todos os usuários cadastrados na aplicação e obtenção dos dados de um usuário específico pelo nome de usuário.
 
+![Usuarios Controller](img/UsuariosControllers.png)
+
+<h4>RegistrosController</h4>
+Determina as rotas da classe Registros, permitindo a criação, atualização e deleção de registros de usuários na aplicação.
+Também possui rotas para um obtenção de todos os registros cadastrados na aplicação e obtenção dos registros por ID ou Usuário.
+
+![Registros Controller](img/RegistrosControllers.png)
+
+<h4>NotaMensalController</h4>
+Determina as rotas da classe NotaMensal, permitindo a criação e atualização das notas mensais de usuários na aplicação.
+Também possui rotas para um obtenção de todos as notas cadastradas na aplicação e obtenção das notas por ID ou Usuário.
+
+![NotaMensal Controller](img/NotaMensalControllers.png)
 
 
-
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
