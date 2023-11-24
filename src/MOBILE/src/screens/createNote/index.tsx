@@ -58,7 +58,7 @@ const CreateNote = () => {
         }
 
 
-        axios.post(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Registros`, formData, {
+        axios.post(`https://f273-2804-d45-9911-9b00-7d11-1c2d-4eef-416c.ngrok-free.app/api/Registros`, formData, {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
@@ -84,14 +84,14 @@ const CreateNote = () => {
         <View style={{ flex: 1, backgroundColor: COLORS.primary }}>
            <View style={{ flex: 0.5, width: '100%', alignItems: 'center', justifyContent: 'space-around', backgroundColor: COLORS.primary, flexDirection: 'row' }}>
                 <TouchableOpacity style={{ paddingTop: sizeParse(25), paddingHorizontal: sizeParse(10), alignItems: 'center', justifyContent: 'center' }} onPress={() => { navigate('Configuracoes') }}>
-                    <Ionicons name="md-reorder-three-outline" size={40} color="white" />
+                    <Ionicons name="md-reorder-three-outline" size={30} color="white" />
                 </TouchableOpacity>
                 <View style={{ marginLeft: sizeParse(25), flexDirection: 'row' }}>
                     <Image source={LOGO_HOME} resizeMode="contain" style={{ width: 300, height: 200, paddingLeft: sizeParse(20) }} />
                 </View>
             </View>
 
-            <View style={{ flex: 4, width: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: COLORS.grayLight, gap: 15 }}>
+            <View style={{  width: '100%', alignItems: 'center', justifyContent: 'center', backgroundColor: COLORS.grayLight, gap: 15, paddingBottom: 50 }}>
                 <ScrollView>
                     <View style={{ width: '100%', alignItems: "center", justifyContent: 'center', paddingVertical: sizeParse(10) }}>
                         <Text style={{ fontFamily: FONTS.bold, fontSize: 30 }}>Criando um texto</Text>
