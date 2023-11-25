@@ -39,46 +39,31 @@ Também possui rotas para um obtenção de todos as notas cadastradas na aplica�
 
 A aplicação WEB foi desenvolvida no editor Visual Studio Code utilizando a biblioteca JavaScript React, especialmente útil para SPAs (Single Page Applications) e possuindo como principal característica a componentização. Foi utilizado o Vite junto ao React, que oferece um template pré-configurado e suporte HMR, e styled-components, biblioteca que permite utilizar o CSS diretamente no JavaScript.
 
-Iniciando o a atendimento aos requisitos RF-001	e RF-005, implementamos o front-end das telas com as funcionalidades de login, cadastro e recuperação de senha. As pastas  SignIn, SignUp e ChangePass contém o arquivo index.jsx que contém tanto o código HTML quanto as funcionalidades da página em JavaScript, e o arquivo styled.js contém a estilização CSS especifica da página, sendo que demais componentes são importados da pasta 'components' do projeto.
+Atendendo aos requisitos RF-001	e RF-005, foi implementado o front-end das telas com as funcionalidades de login, cadastro e recuperação de senha. As pastas  SignIn, SignUp e ChangePass contêm o arquivo index.jsx com os códigos tanto HTML quanto as funcionalidades da página em JavaScript, e o arquivo styled.js contém a estilização CSS especifica da página, sendo que demais componentes são importados da pasta 'components' do projeto.
  
 Abaixo estão as descrições das páginas e links para as pastas com os códigos:
 
 <br>**SignIn** <br>
-A págnia Login é onde o usuário pode navegar para a área de cadastro ou recuperação de senha. Nela existem todas as funções necessárias para a autenticação do usuário como validação de preenchimento dos campos, função de login e passagem de valores para o contexto do usuário.
+Na página Login (SignIn) o usuário pode navegar para a área de cadastro ou recuperação de senha. Nela estão todas as funções necessárias para a autenticação do usuário como validação de preenchimento dos campos, função de login e passagem de valores para o contexto do usuário.
 <br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/37bb5aea5ad3a452974193310e8784772907c4a3/src/WEB/MoodTracker_WEB/pages/SignIn
-">Link do código</a>
+">Link do Pasta</a>
 
 <br>**SignUp**<br>
-A págnia Login é onde o usuário pode navegar para a área de cadastro ou recuperação de senha. Nela existem todas as funções necessárias para a autenticação do usuário como validação de preenchimento dos campos, função de login e passagem de valores para o contexto do usuário.
-<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t2-zcaixa/blob/main/src/Projeto%20VS/ZCAIXAMOBILE/src/pages/Login.tsx">Link do código</a>
+A página de cadastro (SignUp) contém o formulário para a criação de uma conta para utilizar a aplicação. Nela estão contidas as funções necessárias para o cadastro como a verificação dos dados preenchidos e envio dos dados para a API.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/4a729f1d4f9ffa3c3dc8190d4a5011455154281a/src/WEB/MoodTracker_WEB/pages/SignUp">Link do Pasta</a>
 
 <br>**ChangePass**<br>
-A página de cadastro é onde contém o formulário para a criação de uma conta para utilizar a aplicação. Nela contém as funções necessárias para o cadastro como a verificação dos dados preenchidos e envio dos dados para a API.
-<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t2-zcaixa/blob/main/src/Projeto%20VS/ZCAIXAMOBILE/src/pages/Cadastro.tsx">Link do código</a>
+A página de mudança de senha (ChangePass) é onde está o formulário para a alteração da senha do usuário através do envio de um token único pelo e-mail do mesmo. Nela estão contidas as funções necessárias para a geração do token e envio automático para o e-mail.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/4a729f1d4f9ffa3c3dc8190d4a5011455154281a/src/WEB/MoodTracker_WEB/pages/ChangePass">Link do Pasta</a>
 
-Para o atendimento dos requisitos... foram geradas as páginas
+<br>**Home**<br>
+Para atender aos requisitos RF-006, RF-007, RF-008, RF-009, foi gerada a página Home, acessada após a autenticação do usuário na aplicação. Ela apresenta as notas criadas, com possibilidade de friltrar e pesquisar com base em data e humor, apresenta também a nota mensal e humor médio das notas do mês cadastras pelo usuário. A partir desta página o usário consegue a acessar as páginas de criar e editar notas.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/4a729f1d4f9ffa3c3dc8190d4a5011455154281a/src/WEB/MoodTracker_WEB/pages/Home">Link da Pasta</a>
 
-<br>**Main.tsx**<br>
-O Arquivo Main.tsx é o componente que utiliza a biblioteca NativeStackNavigator para apresentar a página para o usuário que realizou autenticação na aplicação. A página Caixa.tsx.
-<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t2-zcaixa/blob/main/src/Projeto%20VS/ZCAIXAMOBILE/src/navigations/main.tsx">Link do código</a>
+<br>**CreateNote**<br>
+Para atender aos requisitos RF-003, RF-004 e RF-010, foi gerada a página CreateNote, acessada pela página Home do usuário autenticado. Nela o usuário pode cadastrar uma nota utilizando os campos de título e texto e ainda aplicar uma tag de humor.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/4a729f1d4f9ffa3c3dc8190d4a5011455154281a/src/WEB/MoodTracker_WEB/pages/CreateNote">Link da Pasta</a>
 
-
-Para a autenticação dos usuários....
-
-<br>**Route.tsx**<br>
-O arquivo Route.tsx é o principal componente do aplicativo (utilizado no APP.tsx) pois é responsável por definir as rotas de navegação que utiliza a informação de autenticação no contexto do usuário para definir quais páginas serão exibidas.
-<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t2-zcaixa/blob/main/src/Projeto%20VS/ZCAIXAMOBILE/src/navigations/Route.tsx">Link do código</a>
-
-<br>**Auth.tsx**<br>
-O Arquivo Auth.tsx é o componente que utiliza a biblioteca NativeStackNavigator para apresentar as páginas para o usuário que não realizou a autenticação na aplicação. São elas Inicio, Login, Cadastro e Recuperação de senha.
-<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t2-zcaixa/blob/main/src/Projeto%20VS/ZCAIXAMOBILE/src/navigations/Auth.tsx">Link do código</a>
-
-<br>**Auth.services.tsx**<br>
-O Arquivo Auth.services.tsx contém todas as funções e procedimentos para autenticação do usuário assim como a obtenção dos dados para consumo do contexto do usuário dentro da aplicação.
-<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e3-proj-mov-t2-zcaixa/blob/main/src/Projeto%20VS/ZCAIXAMOBILE/src/services/auth.services.tsx">Link do código</a>
-
-
-
-
-
-
+<br>**Routes**<br>
+Para definir as rotas de navegação (páginas que serão exibidas) de usuários autenticados e não autenticados, foram criados dois principais arquivos: app.routes.jsx para usuários autenticados e auth.routes.jsx para usuarios não autenticados. As páginas exibidas para usuários não autenticados são as de SignIn, SignUp, e ChangePass, enquanto as exibidas para os usuários autenticados são todas as outras (principalmente Home e CreateNote).
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/4a729f1d4f9ffa3c3dc8190d4a5011455154281a/src/WEB/MoodTracker_WEB/routes">Link da Pasta</a>
