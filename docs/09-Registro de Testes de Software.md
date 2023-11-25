@@ -61,9 +61,10 @@ Tela de criação de texto:
 ## Test Case 03 "Realizar busca por filtro"
 Ao seguir os passos elicitados no teste o sistema apresenta os meses e os registros disponíveis de cada mês do usuário
 
-Janeiro
+Janeiro:
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/blob/2bb4c049bd9b693c59be831c023ebe3e2627e72f/docs/img/1%20-%20Filtro%20ok.jpeg)
 
-Outubro
+Outubro:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/blob/2bb4c049bd9b693c59be831c023ebe3e2627e72f/docs/img/1%20-%20Filtro%20ok%20(2).jpeg)
