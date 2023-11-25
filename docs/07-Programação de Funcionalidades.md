@@ -67,3 +67,5 @@ Para atender aos requisitos RF-003, RF-004 e RF-010, foi gerada a página Create
 <br>**Routes**<br>
 Para definir as rotas de navegação (páginas que serão exibidas) de usuários autenticados e não autenticados, foram criados dois principais arquivos: app.routes.jsx para usuários autenticados e auth.routes.jsx para usuarios não autenticados. As páginas exibidas para usuários não autenticados são as de SignIn, SignUp, e ChangePass, enquanto as exibidas para os usuários autenticados são todas as outras (principalmente Home e CreateNote).
 <br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/4a729f1d4f9ffa3c3dc8190d4a5011455154281a/src/WEB/MoodTracker_WEB/routes">Link da Pasta</a>
+
+## Aplicação Mobile
