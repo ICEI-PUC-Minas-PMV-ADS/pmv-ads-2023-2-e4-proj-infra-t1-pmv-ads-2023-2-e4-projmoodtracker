@@ -69,3 +69,35 @@ Para definir as rotas de navegação (páginas que serão exibidas) de usuários
 <br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/4a729f1d4f9ffa3c3dc8190d4a5011455154281a/src/WEB/MoodTracker_WEB/routes">Link da Pasta</a>
 
 ## Aplicação Mobile
+
+A aplicação Mobile foi desenvolvida no editor Visual Studio Code utilizando a biblioteca JavaScript React, juntamente ao Visual Studio 2022, assim como o MySql Server e MySQL Studio Management para criação e manejo do banco de dados.
+
+Abaixo estão as descrições das páginas e links para as pastas com os códigos:
+
+<br>**SignIn** <br>
+Na tela Login (login) o usuário pode navegar para a área de cadastro ou recuperação de senha. Nela estão todas as funções necessárias para a autenticação do usuário como validação de preenchimento dos campos, função de login e passagem de valores para o contexto do usuário.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/MOBILE/src/screens/login">Link da Pasta</a>
+
+<br>**SignUp**<br>
+A página de cadastro (register) contém o formulário para a criação de uma conta para utilizar a aplicação. Nela estão contidas as funções necessárias para o cadastro como a verificação dos dados preenchidos e envio dos dados para a API.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/MOBILE/src/screens/register">Link da Pasta</a>
+
+<br>**ChangePass**<br>
+A página de mudança de senha (passwordRecovery) é onde está o formulário para a alteração da senha do usuário através do envio de um token único pelo e-mail do mesmo. Nela estão contidas as funções necessárias para a geração do token e envio automático para o e-mail.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/MOBILE/src/screens/passwordRecovery">Link da Pasta</a>
+
+<br>**Home**<br>
+Para atender aos requisitos RF-006, RF-007, RF-008, RF-009, foi gerada a página Home, acessada após a autenticação do usuário na aplicação. Ela apresenta as notas criadas, com possibilidade de filtrar e pesquisar com base em data e humor.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/MOBILE/src/screens/home">Link da Pasta</a>
+
+<br>**CreateNote**<br>
+Para atender aos requisitos RF-003, RF-004 e RF-010, foi gerada a página CreateNote, acessada pela página Home do usuário autenticado. Nela o usuário pode cadastrar uma nota utilizando os campos de título e texto e ainda aplicar uma tag de humor.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/MOBILE/src/screens/createNote">Link da Pasta</a>
+
+<br>**EditNote**<br>
+Para atender aos requisitos RF-003, RF-004 e RF-010, foi gerada a página EditNote, acessada pela página Home do usuário autenticado. Nela o usuário pode alterar alguma nota  já criada utilizando o editor de textos fornecido pela página CreateNote.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/MOBILE/src/screens/editNote">Link da Pasta</a>
+
+<br>**Configurações**<br>
+A pagina de configurações foi gerada para que o usuário autenticado pudesse fazer alterações em seu cadastro, assim como possíveis alterações no aplicativo.
+<br><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/tree/main/src/MOBILE/src/screens/configuracoes">Link da Pasta</a>
