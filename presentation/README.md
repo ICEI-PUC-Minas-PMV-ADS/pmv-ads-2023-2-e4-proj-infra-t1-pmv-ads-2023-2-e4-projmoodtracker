@@ -1,7 +1,9 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+A apresentação do projeto em pdf pode ser acessada pelo link:
 
-## Vídeo resumo da segunda etapa do projeto
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/blob/main/Slides_apresenta%C3%A7%C3%A3o_final.pdf
 
-Para acessar o vídeo, clique no [link](https://www.loom.com/share/8ef88eb7f7df4bb9a51efc49390c45c3?sid=767a4dbb-007e-4921-b470-07610c887b58)
+O Vídeo da apresentação pode ser acesso pelo link:
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker/blob/main/Video_apresenta%C3%A7%C3%A3o_final.mp4
