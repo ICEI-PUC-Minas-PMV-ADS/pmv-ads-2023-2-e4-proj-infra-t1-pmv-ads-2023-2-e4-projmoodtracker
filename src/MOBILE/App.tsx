@@ -46,7 +46,7 @@ const App = () => {
                                 iconName = 'pencil-square-o';
                                 break;
                             case 'Configuracoes':
-                                iconName = 'cog';
+                                iconName = 'search';
                                 break;
                             /*                             case 'Filtrar':
                                                             iconName = 'filter';
@@ -72,8 +72,8 @@ const App = () => {
                 })}
             >
                 <Tab.Screen name="Inicio" component={Home} options={{ title: 'Início', headerShown: false, tabBarLabel: 'Início' }} />
-                <Tab.Screen name="CreateNote" component={CreateNote} options={{ title: 'Criar Nota', headerShown: false, tabBarLabel: 'Criar Nota' }} />
-                <Tab.Screen name="Configuracoes" component={Configuracoes} options={{ title: 'Configurações', headerShown: false, tabBarLabel: 'Configurações/Sair' }} />
+                <Tab.Screen name="CreateNote" component={CreateNote} options={{ title: 'Criar Nota', headerShown: false, tabBarLabel: 'Criar Texto' }} />
+                <Tab.Screen name="Configuracoes" component={Configuracoes} options={{ title: 'Configurações', headerShown: false, tabBarLabel: 'Buscar' }} />
             </Tab.Navigator>
         )
     }

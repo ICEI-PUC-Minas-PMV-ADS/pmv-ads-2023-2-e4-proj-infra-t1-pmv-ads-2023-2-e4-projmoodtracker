@@ -68,7 +68,7 @@ const Login = () => {
                 senha: password
             };
 
-            const response = await axios.post('https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Usuarios/authenticate', requestData);
+            const response = await axios.post('https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Usuarios/authenticate', requestData);
             
 
             if (!!response.data && response.data !== "") {

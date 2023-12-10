@@ -30,7 +30,7 @@ export const Login_Redirect = async (reset, dispatch) => {
 
     if (!!id_username) {
         try {
-            const response = await fetch(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Usuarios/${id_username}`, {
+            const response = await fetch(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Usuarios/${id_username}`, {
                 method: 'GET',
                 headers: {
                     authorization: `Bearer ${jwt_token}`,

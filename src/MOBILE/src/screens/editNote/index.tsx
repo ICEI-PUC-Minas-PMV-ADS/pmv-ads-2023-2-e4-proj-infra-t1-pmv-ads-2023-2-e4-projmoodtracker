@@ -47,7 +47,7 @@ const EditNote = ({ route }) => {
     async function getReg() {
         const token = await getAuthorizationToken();
 
-        axios.get(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Registros/${idReg}`, {
+        axios.get(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Registros/${idReg}`, {
           headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${token}`
@@ -85,7 +85,7 @@ const EditNote = ({ route }) => {
         }
 
 
-        axios.put(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Registros/${idReg}`, formData, {
+        axios.put(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Registros/${idReg}`, formData, {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`

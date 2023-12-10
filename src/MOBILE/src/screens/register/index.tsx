@@ -114,12 +114,22 @@ const Register = () => {
                     />
                     <InputRegister
                         value={apelido}
-                        placeholder="Como gostaria de ser chamado? (Opcional)"
+                        placeholder="Como gostaria de ser chamado?"
                         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>) => {
                             const user = event.nativeEvent.text;
                             setApelido(user);
                         }}
                     />
+
+                    <InputRegister
+                        value={apelido}
+                        placeholder="Escolha um nome de usuário"
+                        onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>) => {
+                            const user = event.nativeEvent.text;
+                            setApelido(user);
+                        }}
+                    />
+
 
                     <View style={{ paddingHorizontal: 30 }}>
                         <View style={{ width: '100%', paddingHorizontal: 15, backgroundColor: COLORS.white, borderRadius: 20, borderWidth: 1, borderColor: COLORS.gray80 }}>
@@ -133,7 +143,7 @@ const Register = () => {
                                     format: 'DD/MM/YYYY'
                                 }}
                                 value={dataNascimento}
-                                placeholder="Data de nascimento"
+                                placeholder="Sua data de nascimento"
                                 onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>) => {
                                     const user = event.nativeEvent.text;
                                     setDataNascimento(user);
@@ -148,7 +158,7 @@ const Register = () => {
 
                     <InputRegister
                         value={email}
-                        placeholder="Email..."
+                        placeholder="Seu melhor e-mail"
                         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>) => {
                             const user = event.nativeEvent.text;
                             setEmail(user);
@@ -159,7 +169,7 @@ const Register = () => {
                     <InputRegister
                         value={password}
                         isPassword
-                        placeholder="Digite sua senha..."
+                        placeholder="Crie uma senha"
                         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>) => {
                             const password = event.nativeEvent.text;
                             setPassword(password);
@@ -170,9 +180,9 @@ const Register = () => {
 
                     <InputRegister
                         value={confirmPassword}
-                        title="Confirme a senha"
+                        title="Confirme sua senha"
                         isPassword
-                        placeholder="Digite sua senha..."
+                        placeholder="Confirme sua senha"
                         onChange={(event: NativeSyntheticEvent<TextInputChangeEventData>) => {
                             const confirmPassword = event.nativeEvent.text;
                             setconfirmPassword(confirmPassword);

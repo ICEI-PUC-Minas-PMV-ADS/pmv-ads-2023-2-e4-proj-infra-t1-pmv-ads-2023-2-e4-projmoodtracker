@@ -98,7 +98,7 @@ const Configuracoes = () => {
         const usuario = !!user ? user : userstorage;
         console.log(token);
         try {
-            const response = await axios.get(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Registros/Username/${usuario}`, {
+            const response = await axios.get(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Registros/Username/${usuario}`, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`
@@ -125,7 +125,7 @@ const Configuracoes = () => {
 
         const token = await getAuthorizationToken();
 
-        axios.get(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/NotaMensal`, {
+        axios.get(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/NotaMensal`, {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
@@ -201,7 +201,7 @@ const Configuracoes = () => {
                     <View style={{ paddingHorizontal: sizeParse(30) }}>
                         <ButtonSalvar style={{ padding: 10 }} onPress={mostrarNotaDoMes} >
                             <TextLogin style={{ fontSize: 20 }}>
-                                Nota do dia
+                                Nota do mês
                             </TextLogin>
                         </ButtonSalvar>
                     </View>

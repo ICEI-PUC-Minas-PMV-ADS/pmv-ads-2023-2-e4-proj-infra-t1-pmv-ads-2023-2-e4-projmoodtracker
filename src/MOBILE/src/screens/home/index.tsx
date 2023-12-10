@@ -100,7 +100,7 @@ const Home = ({ route }) => {
         const usuario = !!user ? user : userstorage;
 
         try {
-            const response = await axios.get(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Usuarios/${usuario}`, {
+            const response = await axios.get(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Usuarios/${usuario}`, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`
@@ -119,7 +119,7 @@ const Home = ({ route }) => {
 
         const token = await getAuthorizationToken();
 
-        axios.get(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/NotaMensal`, {
+        axios.get(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/NotaMensal`, {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
@@ -148,7 +148,7 @@ const Home = ({ route }) => {
         const userstorage = await getAuthorizationId();
         const usuario = !!user ? user : userstorage;
         try {
-            const response = await axios.get(`https://3f80-2804-d45-9911-9b00-398f-75dc-95fc-dd83.ngrok-free.app/api/Registros/Username/${usuario}`, {
+            const response = await axios.get(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Registros/Username/${usuario}`, {
                 headers: {
                     'Content-Type': 'application/json',
                     'Authorization': `Bearer ${token}`
@@ -224,7 +224,7 @@ const Home = ({ route }) => {
                     :
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}
                         contentContainerStyle={{ flexDirection: 'row' }}>
-                        <Text style={{ fontFamily: FONTS.bold, fontSize: 15 }}> Nota do dia: </Text>
+                        <Text style={{ fontFamily: FONTS.bold, fontSize: 15 }}> Nota do mês: </Text>
                         <Text style={{ fontFamily: FONTS.regular, fontSize: 15, color: COLORS.white }}> {!!notaDia ? notaDia : 'Não possui notas registradas!'} </Text>
                     </ScrollView>
                 }

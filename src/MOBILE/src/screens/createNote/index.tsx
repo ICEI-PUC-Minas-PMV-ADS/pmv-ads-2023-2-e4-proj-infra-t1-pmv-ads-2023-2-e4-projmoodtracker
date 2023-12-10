@@ -58,7 +58,7 @@ const CreateNote = () => {
         }
 
 
-        axios.post(`https://f273-2804-d45-9911-9b00-7d11-1c2d-4eef-416c.ngrok-free.app/api/Registros`, formData, {
+        axios.post(`https://1aba-2804-b54-2300-5845-a0c7-6229-e3aa-2bf8.ngrok.io/api/Registros`, formData, {
             headers: {
                 'Content-Type': 'application/json',
                 'Authorization': `Bearer ${token}`
@@ -70,6 +70,8 @@ const CreateNote = () => {
                 setRegTriste('');
                 setTexto('');
                 setTitulo('');
+
+                console.log(formData);
 
                 navigate('Inicio', { refresh: true });
                 dispatch(setModalAction({ visible: true, title: 'MoodTracker', text: 'Seu registro foi realizado com sucesso!' }));
