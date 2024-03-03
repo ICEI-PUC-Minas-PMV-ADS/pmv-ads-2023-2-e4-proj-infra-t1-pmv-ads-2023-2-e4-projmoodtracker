@@ -8,7 +8,7 @@ A definição do problema e os pontos mais relevantes a serem tratados neste pro
 
 |Mateus Cunha     | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-| ![persona1]([img/Mateus.jpg](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)) | **Idade:** 26 anos <br> **Ocupação:** Contador |**Aplicativos:**<br>● Whatsapp <br>● Instagram<br>|
+| ![persona1]([img/Mateus.jpg] | **Idade:** 26 anos <br> **Ocupação:** Contador |**Aplicativos:**<br>● Whatsapp <br>● Instagram<br>|
 |**Motivações:**<br>● Registrar gatilhos e hábitos diários |**Frustrações:**<br>● Sempre agir em decorrência de algum gatilho pra realizar alguma vontade, como por exemplo, fumar. |**Hobbies:**<br>● Vídeo games<br>● Música <br>● Televisão |
 
 |Flavia Lima     | Informações:                       |                                        |
