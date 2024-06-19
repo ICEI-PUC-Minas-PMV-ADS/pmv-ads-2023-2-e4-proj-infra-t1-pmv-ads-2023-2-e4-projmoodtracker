@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: ZCaixa - Mobile
+authors:
+  - family-names: Felipe Gomes Pinto
+    given-names:  Andre
+  - family-names: Lucci Imakawa de Andrade
+    given-names: Eduardo
+  - family-names: de Souza Ferreira
+    given-names: Gabriel 
+  - family-names: Furtado de Sousa
+    given-names: Leandro  
+  - family-names: de Souza Ferreira
+    given-names: Pedro 
+  - family-names: Del Puppo Favilla Lobo
+    given-names: Tiago 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Augusto Lara Soares
+    given-names: Felipe 
+keywords:
+  - Diario
+  - Psicologia
+  - Terapia
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e4-proj-infra-t1-pmv-ads-2023-2-e4-projmoodtracker
+version: 1.0.0
+date-released: 2023-12-10
